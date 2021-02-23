@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="17" time="431.368633">
+<testcase classname="Testing Login page in Dometic LMC application" name="Launching the application" time="23.934757">
+<system-out><![CDATA[Given I Launch the application..............................................passed
+Then I Wait short period for Page to Load...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing Login page in Dometic LMC application" name="Verifying application Splash screen Functionality" time="10.526951">
+<system-out><![CDATA[Then I Tap on Allow button in Permission popup in Login Page................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify Welcome Text is displaying in Login Page......................passed
+Then I Verify Page title is displayed in Login Page.........................passed
+Then I Wait short period for Page to Load...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Login Functionality with valid credentials" time="31.163989">
+<system-out><![CDATA[Then I enter Valid Email in Login Page......................................passed
+Then I enter Valid Password in Login Page...................................passed
+Then I Tap on an Login button in Login Page.................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify successfully navigated to On boarding screen..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application On boarding screen functionality" time="15.66022">
+<system-out><![CDATA[Then I entered into On boarding screen......................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Yes button....................................................passed
+Then Landing screen is displayed............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Landing Screen functionality" time="31.253022">
+<system-out><![CDATA[Then I Tap on LATER Button..................................................passed
+Then I Tap on cancel button in Upgrade Firmware.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Bottom Layout screen functionality" time="27.751564">
+<system-out><![CDATA[Then I Verify the All option in the Bottom layout of Landing screen.........passed
+Then I Verify the Device option in the Bottom  layout of Landing screen.....passed
+Then I Verify the Tanks option in the Bottom  layout of Landing screen......passed
+Then I Verify the climate option in the Bottom  layout of Landing screen....passed
+Then I Verify the Scene option in the Bottom  layout of Landing screen......passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on climate option in the Bottom  layout of Landing screen........passed
+Then I Validated Corresponding Climate tile is displayed....................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Device option in the Bottom  layout of Landing screen.........passed
+Then I Validate Corresponding Devices tile is displayed.....................passed
+Then I Tap on Tanks option in the Bottom  layout of Landing screen..........passed
+Then I Validate Corresponding Tank tile is displayed........................passed
+Then I Tap on Scene option in the Bottom  layout of Landing screen..........passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on All option in the Bottom layout of Landing screen.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Bottom Layout screen with ViewOption(Tile View-All Devices) functionality" time="42.429529">
+<system-out><![CDATA[Then I Wait short period for Page to Load...................................passed
+Then I Tap on View option button in landing screen..........................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Tile View Options.............................................passed
+Then I Tap on All Devices...................................................passed
+Then I Tap on Cancel Button.................................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Verify the All option in the Bottom layout of Landing screen.........passed
+Then I Verify the Device option in the Bottom  layout of Landing screen.....passed
+Then I Verify the Tanks option in the Bottom  layout of Landing screen......passed
+Then I Verify the climate option in the Bottom  layout of Landing screen....passed
+Then I Verify the Scene option in the Bottom  layout of Landing screen......passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on climate option in the Bottom  layout of Landing screen........passed
+Then I Validated Corresponding Climate tile is displayed....................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Device option in the Bottom  layout of Landing screen.........passed
+Then I Validate Corresponding Devices tile is displayed.....................passed
+Then I Tap on Tanks option in the Bottom  layout of Landing screen..........passed
+Then I Validate Corresponding Tank tile is displayed........................passed
+Then I Tap on Scene option in the Bottom  layout of Landing screen..........passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on All option in the Bottom layout of Landing screen.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Bottom Layout screen with ViewOption(Tile View-Connected Devices) functionality" time="31.726319">
+<system-out><![CDATA[Then I Tap on View option button in landing screen..........................passed
+Then I Tap on Connected Devices.............................................passed
+Then I Tap on Cancel Button.................................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Verify the All option in the Bottom layout of Landing screen.........passed
+Then I Verify the Device option in the Bottom  layout of Landing screen.....passed
+Then I Verify the Tanks option in the Bottom  layout of Landing screen......passed
+Then I Verify the climate option in the Bottom  layout of Landing screen....passed
+Then I Verify the Scene option in the Bottom  layout of Landing screen......passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on climate option in the Bottom  layout of Landing screen........passed
+Then I Validated Corresponding Climate tile is displayed....................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Device option in the Bottom  layout of Landing screen.........passed
+Then I Validate Corresponding Devices tile is displayed.....................passed
+Then I Tap on Tanks option in the Bottom  layout of Landing screen..........passed
+Then I Validate Corresponding Tank tile is displayed........................passed
+Then I Tap on Scene option in the Bottom  layout of Landing screen..........passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on All option in the Bottom layout of Landing screen.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Bottom Layout screen with ViewOption(Tile View-Non Connected Devices) functionality" time="22.00025">
+<system-out><![CDATA[Then I Tap on View option button in landing screen..........................passed
+Then I Tap on Non Connected Devices.........................................passed
+Then I Tap on Cancel Button.................................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Verify the All option in the Bottom layout of Landing screen.........passed
+Then I Verify the Device option in the Bottom  layout of Landing screen.....passed
+Then I Verify the Tanks option in the Bottom  layout of Landing screen......passed
+Then I Verify the climate option in the Bottom  layout of Landing screen....passed
+Then I Verify the Scene option in the Bottom  layout of Landing screen......passed
+Then I Tap on Device option in the Bottom  layout of Landing screen.........passed
+Then I Tap on Tanks option in the Bottom  layout of Landing screen..........passed
+Then I Tap on Scene option in the Bottom  layout of Landing screen..........passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on All option in the Bottom layout of Landing screen.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Bottom Layout screen with ViewOption(List View-All Devices) functionality" time="39.041503">
+<system-out><![CDATA[Then I Tap on View option button in landing screen..........................passed
+Then I Tap on List View Options.............................................passed
+Then I Tap on All Devices...................................................passed
+Then I Tap on Cancel Button.................................................passed
+Then I Verify the All option in the Bottom layout of Landing screen.........passed
+Then I Verify the Device option in the Bottom  layout of Landing screen.....passed
+Then I Verify the Tanks option in the Bottom  layout of Landing screen......passed
+Then I Verify the climate option in the Bottom  layout of Landing screen....passed
+Then I Verify the Scene option in the Bottom  layout of Landing screen......passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on climate option in the Bottom  layout of Landing screen........passed
+Then I Validated Corresponding Climate tile is displayed....................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Device option in the Bottom  layout of Landing screen.........passed
+Then I Validate Corresponding Devices tile is displayed.....................passed
+Then I Tap on Tanks option in the Bottom  layout of Landing screen..........passed
+Then I Validate Corresponding Tank tile is displayed........................passed
+Then I Tap on Scene option in the Bottom  layout of Landing screen..........passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on All option in the Bottom layout of Landing screen.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Bottom Layout screen with ViewOption(List View-Connected Devices) functionality" time="36.487735">
+<system-out><![CDATA[Then I Tap on View option button in landing screen..........................passed
+Then I Tap on Connected Devices.............................................passed
+Then I Tap on Cancel Button.................................................passed
+Then I Verify the All option in the Bottom layout of Landing screen.........passed
+Then I Verify the Device option in the Bottom  layout of Landing screen.....passed
+Then I Verify the Tanks option in the Bottom  layout of Landing screen......passed
+Then I Verify the climate option in the Bottom  layout of Landing screen....passed
+Then I Verify the Scene option in the Bottom  layout of Landing screen......passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on climate option in the Bottom  layout of Landing screen........passed
+Then I Validated Corresponding Climate tile is displayed....................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Device option in the Bottom  layout of Landing screen.........passed
+Then I Validate Corresponding Devices tile is displayed.....................passed
+Then I Tap on Tanks option in the Bottom  layout of Landing screen..........passed
+Then I Validate Corresponding Tank tile is displayed........................passed
+Then I Tap on Scene option in the Bottom  layout of Landing screen..........passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on All option in the Bottom layout of Landing screen.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Bottom Layout screen with ViewOption(List View-Non Connected Devices) functionality" time="36.555407">
+<system-out><![CDATA[Then I Tap on View option button in landing screen..........................passed
+Then I Tap on Non Connected Devices.........................................passed
+Then I Tap on Cancel Button.................................................passed
+Then I Verify the All option in the Bottom layout of Landing screen.........passed
+Then I Verify the Device option in the Bottom  layout of Landing screen.....passed
+Then I Verify the Tanks option in the Bottom  layout of Landing screen......passed
+Then I Verify the climate option in the Bottom  layout of Landing screen....passed
+Then I Verify the Scene option in the Bottom  layout of Landing screen......passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Device option in the Bottom  layout of Landing screen.........passed
+Then I Tap on Tanks option in the Bottom  layout of Landing screen..........passed
+Then I Tap on Scene option in the Bottom  layout of Landing screen..........passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on All option in the Bottom layout of Landing screen.............passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on View option button in landing screen..........................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Tile View Options.............................................passed
+Then I Tap on All Devices...................................................passed
+Then I Tap on Cancel Button.................................................passed
+Then I Wait short period for Page to Load...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Tank Fresh Water screen UI" time="13.791629">
+<system-out><![CDATA[Then I Tap on Tank Fresh Water in Landing screen............................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Verify the fresh water level text....................................passed
+Then I verify the water pump text...........................................passed
+Then I verify the fresh text on button......................................passed
+Then I verify the black text on button......................................passed
+Then I verify the predictive data in Fresh water text.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Tank Fresh Water screen functionality" time="5.475538">
+<system-out><![CDATA[Then I verify Tank-progressIndicator in Tank Fresh Water....................passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Validated Tank-progressIndicator(Fresh Water) percentage is displayed in Landing screen.passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Water Heater Truma screen UI" time="17.533879">
+<system-out><![CDATA[Then I Wait short period for Page to Load...................................passed
+Then I Scroll the screen upto water heater truma............................passed
+Then I Tap on Water Heater Truma............................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify the Heater text in the Truma heater...........................passed
+Then I verify the Mode text in the Truma heater.............................passed
+Then I verify the Change Mode text in the Truma heater......................passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Water Heater Truma screen functionality" time="35.452632">
+<system-out><![CDATA[Then I validated Truma Heater Status on Tile................................passed
+Then I Tap on Water Heater Truma............................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I scroll up the Truma heater carousel..................................passed
+Then I verify the apply button in the Water heater Truma....................passed
+Then I Tap on the Truma heater Apply button.................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I validated the Heater mode in the main screen.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Validating the updated values in the Water Heater main screen" time="10.583709">
+<system-out><![CDATA[Then I Wait short period for Page to Load...................................passed
+Then I Tap on Water Heater Truma............................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Validated the updated Heater mode values in the Heater Main screen...passed
+]]></system-out>
+</testcase>
+</testsuite>
