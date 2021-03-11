@@ -29,7 +29,6 @@ public class AGSScreen extends Baseclass {
         quiteTimeStart.add(driver.findElement(By.xpath(Constant_AGS.AGSPage_QuietTimeStart_1stminsCarousel_xpath)).getText());
         quiteTimeStart.add(driver.findElement(By.xpath(Constant_AGS.AGSPage_QuietTimeStart_2ndminsCarousel_xpath)).getText());
         quiteTimeStart.add(driver.findElement(By.xpath(Constant_AGS.AGSPage_QuietTimeStart_3rdminsCarousel_xpath)).getText());
-//        System.out.println(quiteTimeStart);
     }
 
     @Then("I Tap on AM in Quiet Time Start screen")
@@ -44,7 +43,6 @@ public class AGSScreen extends Baseclass {
         String quiteTimeStartValue = driver.findElementByAccessibilityId(Constant_AGS.AGSPage_Quiet_Time_Start_cardSubText_access_id).getText();
         for (String eachQuiteTimeStart: quiteTimeStart) {
             if(quiteTimeStartValue.contains(eachQuiteTimeStart)){
-//                System.out.println(eachQuiteTimeStart);
                 System.out.println("Text comparison is Successful");
             }
         }
@@ -69,7 +67,6 @@ public class AGSScreen extends Baseclass {
         quiteTimeEnds.add(driver.findElement(By.xpath(Constant_AGS.AGSPage_QuietTimeEnds_1stminsCarousel_xpath)).getText());
         quiteTimeEnds.add(driver.findElement(By.xpath(Constant_AGS.AGSPage_QuietTimeEnds_2ndminsCarousel_xpath)).getText());
         quiteTimeEnds.add(driver.findElement(By.xpath(Constant_AGS.AGSPage_QuietTimeEnds_3rdminsCarousel_xpath)).getText());
-//        System.out.println(quiteTimeEnds);
     }
 
     @Then("I Tap on AM in Quiet Time Ends screen")
@@ -128,7 +125,7 @@ public class AGSScreen extends Baseclass {
 
     @Then("I Tap on Start Voltage")
     public void iTapOnStartVoltage() throws ClassNotFoundException {
-        ScenarioDef.createNode(new GherkinKeyword("Then"), "I verify QUITE TIME START title");
+        ScenarioDef.createNode(new GherkinKeyword("Then"), "I Tap on Start Voltage");
         TaponbuttonaccessabilityID(Constant_AGS.AGSPage_Start_Voltage_text_access_id);
     }
 

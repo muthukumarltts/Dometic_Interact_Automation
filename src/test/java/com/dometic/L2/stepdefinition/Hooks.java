@@ -68,7 +68,7 @@ public class Hooks extends Baseclass {
         return Android_driver;
     }
 
-    public AndroidDriver<AndroidElement> AndroidPortNumber4723(String portNumber) throws IOException, InterruptedException {
+    public AndroidDriver<AndroidElement> AndroidPortNumber4723() throws IOException, InterruptedException {
         loadProperties();
         DesiredCapabilities cap = new DesiredCapabilities();
 //        String automationName = prop.getProperty("automationName");
@@ -87,7 +87,7 @@ public class Hooks extends Baseclass {
         String fullReset = prop.getProperty("fullReset1");
         cap.setCapability("fullReset", fullReset);
         try {
-            Android_driver = new AndroidDriver(new URL(portNumber), cap);
+            Android_driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
             Android_driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         } catch (Exception e) {
             e.printStackTrace();

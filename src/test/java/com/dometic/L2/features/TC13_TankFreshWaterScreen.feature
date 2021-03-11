@@ -1,6 +1,6 @@
 Feature: Testing an Dometic LMC application
 
-  @First @sanity
+  @First1 @sanity1
   Scenario: Verifying application Tank Fresh Water screen UI
     Then I Tap on Tank Fresh Water in Landing screen
     Then I Wait short period for Page to Load
@@ -11,7 +11,7 @@ Feature: Testing an Dometic LMC application
     Then I verify the black text on button
     Then I verify the predictive data in Fresh water text
 
-  @sanity
+  @sanity1
   Scenario: Verifying application Tank Fresh Water screen functionality
     Then I verify Tank-progressIndicator in Tank Fresh Water
     Then I Tap on Back Button

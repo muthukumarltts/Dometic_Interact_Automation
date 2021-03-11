@@ -1,6 +1,6 @@
 Feature: Testing an Dometic LMC application
 
-  @First1 @sanity1
+  @First @sanity
   Scenario: Verifying application On boarding screen functionality
     Then I entered into On boarding screen
     Then I Wait short period for Page to Load

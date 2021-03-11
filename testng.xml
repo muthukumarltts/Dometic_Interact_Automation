@@ -26,7 +26,7 @@
         </classes>
     </test> <!-- Test -->
 <!--    <test name="L2-Test1">-->
-<!--&lt;!&ndash;        <parameter name="PortNumber" value="4723" />&ndash;&gt;-->
+<!--        <parameter name="PortNumber" value="4723" />-->
 <!--        <classes>-->
 <!--            &lt;!&ndash;            <class name="com.dometic.L1.androidrunner.ReRunTest"/>&ndash;&gt;-->
 <!--            <class name="com.dometic.L2.androidrunner.L2_runner"/>-->

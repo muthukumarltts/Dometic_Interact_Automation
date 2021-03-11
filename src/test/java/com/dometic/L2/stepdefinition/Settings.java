@@ -118,12 +118,6 @@ public class Settings extends Baseclass {
         TaponbuttonaccessabilityID(Constant_settings.Settings_Back_Button_access_id);
     }
 
-    @Then("I tap on Logout in Settings")
-    public void iTapOnLogoutInSettings() throws Throwable {
-        ScenarioDef.createNode(new GherkinKeyword("Then"), "I tap on Logout in Settings");
-        TaponbuttonaccessabilityID(Constant_settings.Settings_logout_text_access_id);
-    }
-
     @Then("I update language to Spanish in settings")
     public void iUpdateLanguageToSpanishInSettings() throws Throwable{
         ScenarioDef.createNode(new GherkinKeyword("Then"), "I update language to Spanish in settings");
@@ -373,5 +367,12 @@ public class Settings extends Baseclass {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Constant_settings.Settings_Zone_Management_new_Zone_xpath)));
         TaponbuttonaccessabilityID(Constant_settings.Settings_Zone_Management_new_Zone_access_id);
         entertextaccessabilityId(Constant_settings.Settings_Zone_Management_NewZone_Room,Constant_settings.Settings_Zone_Management_new_Zone_access_id);
+    }
+
+    @Then("I Tap on Logout in Settings")
+    public void iTapOnLogoutInSettings() throws ClassNotFoundException {
+        ScenarioDef.createNode(new GherkinKeyword("Then"), "I Tap on Logout in Settings");
+        System.out.println("Text comparison is Successful");
+        Taponbutton(com.dometic.L1.qa.Pages.Constant_settings.Settings_Logout_xpath);
     }
 }

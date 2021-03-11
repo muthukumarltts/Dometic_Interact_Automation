@@ -33,22 +33,7 @@ public class Basestepdefinition extends Baseclass {
         ScenarioDef.createNode(new GherkinKeyword("Given"), "I Launch the application");
         System.out.println("Launch the application");
         driver = Android_driver.Android();
-//        if(portNumber.equalsIgnoreCase("5723")){
-//            driver = Android_driver.Android();
-//        }
-//        else if(portNumber.equalsIgnoreCase("4723")){
-//            driver = Android_driver.AndroidPortNumber4723();
-//        }
-        //extentReports=new ExtentReports();
-
-//        driver = Android_driver.AndroidgetDriver();
     }
-//    @Parameters(value = {"PortNumber"})
-//    @Given("^I Launch the application$")
-//    public void i_Launch_the_application() throws Throwable {
-//
-//    }
-
 
     //Wait for Page to Load
     @Then("^I Wait for Page to Load$")
@@ -158,17 +143,6 @@ public class Basestepdefinition extends Baseclass {
                 break;
             }
         }
-
-//        List<AndroidElement> elementsByAccessibilityId = driver.findElementsByAccessibilityId(Constant_climate_ac.CAC_M_Minimum_Temperature_access_id);
-//        while (elementsByAccessibilityId.size()==0){
-//            i_swipe_the_right_left_screen();
-//            Thread.sleep(1000);
-//            if (elementsByAccessibilityId.get(0).getText().contains(Constant_climate_ac.CAC_M_Minimum_Temperature_access_id)){
-//                break;
-//            }
-//    }
-        // TaponbuttonaccessabilityID(Constant_climate_ac.CAC_M_Minimum_Temperature_access_id);
-        //break;
     }
 
     public void SwipeTillElementRight() throws Throwable {
@@ -178,21 +152,6 @@ public class Basestepdefinition extends Baseclass {
                 break;
             }
         }
-//        if(elementsByAccessibilityId.size()!=0){
-//            TaponbuttonaccessabilityID(Constant_climate_ac.CAC_M_climate_apply_button_access_id);
-//        }
-
-    }
-
-    @Given("I Launch the application on {string}")
-    public void iLaunchTheApplicationOn(String portNumber) throws IOException, InterruptedException {
-//        Hooks Android_driver = new Hooks();
-//        if(portNumber.equalsIgnoreCase("http://127.0.0.1:5723/wd/hub")){
-//            Android_driver.Android(portNumber);
-//        }
-//        else if(portNumber.equalsIgnoreCase("http://127.0.0.1:4723/wd/hub")){
-//            Android_driver.AndroidPortNumber4723(portNumber);
-//        }
     }
 }
 

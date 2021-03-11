@@ -1,6 +1,6 @@
 Feature: Testing an Dometic LMC application
 
-  @First @sanity
+  @First1 @sanity1
   Scenario: Verifying application Water Heater Truma screen UI
     Then I Wait short period for Page to Load
     Then I Scroll the screen upto water heater truma
@@ -14,7 +14,7 @@ Feature: Testing an Dometic LMC application
     Then I Tap on Back Button
     Then I Wait short period for Page to Load
 
-  @sanity
+  @sanity1
   Scenario: Verifying application Water Heater Truma screen functionality
     Then I validated Truma Heater Status on Tile
     Then I Tap on Water Heater Truma
@@ -25,7 +25,7 @@ Feature: Testing an Dometic LMC application
     Then I Wait short period for Page to Load
     Then I validated the Heater mode in the main screen
 
-  @sanity
+  @sanity1
   Scenario: Validating the updated values in the Water Heater main screen
     Then I Wait short period for Page to Load
     Then I Tap on Water Heater Truma

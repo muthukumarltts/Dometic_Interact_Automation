@@ -40,7 +40,6 @@ Feature: Testing an Dometic LMC application
     Then I Tap on Non Connected Devices
     Then I Tap on Cancel Button
 
-
   @sanity1
   Scenario: Verifying application ViewOption functionality after Logout
     Then I Tap on View option button in landing screen

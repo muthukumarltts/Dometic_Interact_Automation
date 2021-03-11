@@ -1,6 +1,6 @@
 Feature: Testing an Dometic LMC application
 
-  @First1 @sanity1
+  @First @sanity
   Scenario: Verifying application Landing screen functionality
     Then I entered into Landing screen
     Then I verify Climate Tile is displayed in Landing screen

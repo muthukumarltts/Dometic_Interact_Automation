@@ -1,6 +1,6 @@
 package com.dometic.L2.qa.Pages;
 
-import com.dometic.L1.qa.util.Baseclass;
+import com.dometic.L2.qa.util.Baseclass;
 
 public class Constant_forgotpassword extends Baseclass{
     public static final String Forgot_password_email = "com.dometicapp:id/forgot-emailTextfield";

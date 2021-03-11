@@ -1,6 +1,5 @@
 Feature: Testing an Dometic LMC application
 
-
   @First1 @sanity1
   Scenario: Validating application German Language in login page
     Then I verify Wilkommen zurück! text is displayed in login page

@@ -1,6 +1,6 @@
 Feature: Testing an Dometic LMC application
 
-  @First @sanity
+  @First1 @sanity1
   Scenario: Verifying application Light screen UI
     Then I Tap on Light in Landing screen
     Then I Wait short period for Page to Load
@@ -22,7 +22,7 @@ Feature: Testing an Dometic LMC application
     Then I Tap on Back Button
     Then I Wait short period for Page to Load
 
-  @sanity
+  @sanity1
   Scenario: Verifying application Light screen All Lights On Functionality
     Then I Tap on Light in Landing screen
     Then I Wait short period for Page to Load
@@ -35,7 +35,7 @@ Feature: Testing an Dometic LMC application
     Then I validate applied lights value is displayed in Landing page
     Then I Wait short period for Page to Load
 
-  @sanity
+  @sanity1
   Scenario: Verifying application Light screen All Lights Off Functionality
     Then I Tap on Light in Landing screen
     Then I Wait short period for Page to Load
@@ -47,7 +47,7 @@ Feature: Testing an Dometic LMC application
     Then I validated applied lights value is displayed in Landing page
     Then I Wait short period for Page to Load
 
-  @sanity
+  @sanity1
   Scenario: Verifying application Light screen Tap on any Lights Functionality
     Then I Tap on Light in Landing screen
     Then I Wait short period for Page to Load

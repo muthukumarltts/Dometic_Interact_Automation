@@ -1,6 +1,6 @@
 Feature: Testing an Dometic LMC application
 
-  @First1 @sanity1
+  @First @sanity
   Scenario: Verifying application PowerHouseBattery screen functionality
     Then I Tap on PowerHouseBattery CTA in Landing screen
     Then I verify POWER text displayed in the top of the app

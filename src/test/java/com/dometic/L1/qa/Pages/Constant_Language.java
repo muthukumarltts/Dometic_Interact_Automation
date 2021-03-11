@@ -16,6 +16,7 @@ public class Constant_Language {
     public static final String Login_error_german_text_xpath_expected="Need access_id";
 
     //-------------Forgot Password Text-----------------//
+    public static final String ForgetPassword_forgot_header_German_text_expected="Need access_id";
     public static final String ForgetPassword_forgot_enterEmail_German_text_expected="Need access_id";
     public static final String ForgetPassword_forgot_createPass_German_text_expected="Need access_id";
     public static final String ForgetPassword_forgot_emailReceive_German_expected="Need access_id";

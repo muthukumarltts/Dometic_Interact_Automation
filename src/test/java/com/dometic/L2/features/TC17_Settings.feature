@@ -1,6 +1,6 @@
 Feature: Testing an Dometic LMC application
 
-  @First1 @sanity1
+  @First @sanity
   Scenario: Verifying application Settings screen functionality
     Then I verify hamburger menu in landing screen
     Then I Tap on hamburger menu in landing screen
@@ -70,9 +70,9 @@ Feature: Testing an Dometic LMC application
     And I verify on Language text updated with Spanish translation
     And I verify on Temperature text updated with Spanish translation
     And I verify on logout text updated with Spanish translation
-    Then I Tap on Back Button
+#    Then I Tap on Back Button
     Then I Wait short period for Page to Load
-    Then I Tap on hamburger menu in landing screen
+#    Then I Tap on hamburger menu in landing screen
 
   @sanity1
   Scenario: Verify French Language Functionality
@@ -98,10 +98,13 @@ Feature: Testing an Dometic LMC application
   Scenario: Verify Version Functionality
     Then I verify Version is displayed
 
-  @sanity1
+  @sanity
   Scenario: Verify application Logout Functionality
     Then I verify Log out is displayed
-    Then I Tap on Logout
+    Then I navigate to update language section in Settings
+    Then I update language to Spanish in settings
+    Then I Wait short period for Page to Load
+    Then I Tap on Logout in Settings
 
 
 

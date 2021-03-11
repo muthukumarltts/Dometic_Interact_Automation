@@ -46,7 +46,7 @@ public class Basestepdefinition extends Baseclass {
     //Wait for Short period to load
     @Then("^I Wait short period for Page to Load$")
     public void I_Wait_short_for_Page_to_Load() throws Throwable {
-        ScenarioDef.createNode(new GherkinKeyword("Then"), "Signup");
+        ScenarioDef.createNode(new GherkinKeyword("Then"), "I Wait short period for Page to Load");
         Thread.sleep(5000);
     }
 
@@ -110,8 +110,6 @@ public class Basestepdefinition extends Baseclass {
         action.press(PointOption.point(anchorPoint, startPoint)).waitAction(WaitOptions.waitOptions(Duration.ofSeconds(3)))
                 .moveTo(PointOption.point(anchorPoint, endPoint));
         action.release().perform();
-
-
     }
 
     public static void herizontalSwipe(Double startPercentage, Double endPercentage, Double anchorPercentage) {
@@ -128,8 +126,6 @@ public class Basestepdefinition extends Baseclass {
         action.press(PointOption.point(startPoint, anchorPoint)).waitAction(WaitOptions.waitOptions(Duration.ofSeconds(3)))
                 .moveTo(PointOption.point(endPoint, anchorPoint));
         action.release().perform();
-
-
     }
 
     public void SwipeTillElement() throws Throwable {
@@ -142,17 +138,6 @@ public class Basestepdefinition extends Baseclass {
                 break;
             }
         }
-
-//        List<AndroidElement> elementsByAccessibilityId = driver.findElementsByAccessibilityId(Constant_climate_ac.CAC_M_Minimum_Temperature_access_id);
-//        while (elementsByAccessibilityId.size()==0){
-//            i_swipe_the_right_left_screen();
-//            Thread.sleep(1000);
-//            if (elementsByAccessibilityId.get(0).getText().contains(Constant_climate_ac.CAC_M_Minimum_Temperature_access_id)){
-//                break;
-//            }
-//    }
-        // TaponbuttonaccessabilityID(Constant_climate_ac.CAC_M_Minimum_Temperature_access_id);
-        //break;
     }
 
     public void SwipeTillElementRight() throws Throwable {
@@ -162,10 +147,6 @@ public class Basestepdefinition extends Baseclass {
                 break;
             }
         }
-//        if(elementsByAccessibilityId.size()!=0){
-//            TaponbuttonaccessabilityID(Constant_climate_ac.CAC_M_climate_apply_button_access_id);
-//        }
-
     }
 }
 

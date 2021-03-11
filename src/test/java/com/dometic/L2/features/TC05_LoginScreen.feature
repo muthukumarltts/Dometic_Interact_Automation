@@ -48,7 +48,7 @@ Feature: Testing an Dometic LMC application
     Then I Tap on Login button in Login Page
     Then Error message is displayed
 
-  @sanity @Device1 @Device2
+  @sanity
   Scenario: Verifying application Login Functionality with valid credentials
     Then I enter Valid Email in Login Page
     Then I enter Valid Password in Login Page

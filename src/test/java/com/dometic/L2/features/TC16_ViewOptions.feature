@@ -2,7 +2,6 @@ Feature: Testing an Dometic LMC application
 
   @First1 @sanity1
   Scenario: Verifying application ViewOption(Tile View-All Devices) functionality
-
     Then I validate View option button in landing screen
     Then I Tap on View option button in landing screen
     Then I Validate the cancel button

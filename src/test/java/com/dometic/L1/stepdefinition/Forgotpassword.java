@@ -61,6 +61,5 @@ public class Forgotpassword extends Baseclass {
         ScenarioDef.createNode(new GherkinKeyword("Then"), "I verify E-mail (case sensitive) label is displayed");
         asserttextAccessibility(Constant_forgotpassword.ForgetPassword_forgot_email_label_expected,Constant_forgotpassword.ForgetPassword_forgot_email_label_access_id);
     }
-
 }
 

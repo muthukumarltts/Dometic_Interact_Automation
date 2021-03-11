@@ -10,7 +10,7 @@ public class LanguageValidationForgotPasswordPage extends Baseclass {
     @Then("I verify Forgot your password german text is displayed in Forgot password Page")
     public void iVerifyForgotYourPasswordGermanTextIsDisplayedInForgotPasswordPage() throws Throwable {
         TaponbuttonaccessabilityID(Constant_login.Login_forgot_password_link_access_id);
-        asserttextAccessibility(Constant_Language.ForgetPassword_forgot_enterEmail_German_text_expected,Constant_forgotpassword.ForgetPassword_page_title_access_id);
+        asserttextAccessibility(Constant_Language.ForgetPassword_forgot_header_German_text_expected,Constant_forgotpassword.ForgetPassword_page_title_access_id);
     }
 
     @Then("I verify Forgot your password content german text is displayed in Forgot password Page")
