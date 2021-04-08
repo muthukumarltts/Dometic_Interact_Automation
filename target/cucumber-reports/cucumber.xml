@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="81" time="1247.232281">
+<testcase classname="Testing Login page in Dometic LMC application" name="Launching the application" time="44.722688">
+<system-out><![CDATA[Given I Launch the application..............................................passed
+Then I Wait short period for Page to Load...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing Login page in Dometic LMC application" name="Verifying application Splash screen Functionality" time="10.997919">
+<system-out><![CDATA[Then I Tap on Allow button in Permission popup in Login Page................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify Welcome Text is displaying in Login Page......................passed
+Then I Verify Page title is displayed in Login Page.........................passed
+Then I Wait short period for Page to Load...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Login Functionality with valid credentials" time="31.422517">
+<system-out><![CDATA[Then I enter Valid Email in Login Page......................................passed
+Then I enter Valid Password in Login Page...................................passed
+Then I Tap on an Login button in Login Page.................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify successfully navigated to On boarding screen..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application On boarding screen functionality" time="16.074566">
+<system-out><![CDATA[Then I entered into On boarding screen......................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Yes button....................................................passed
+Then Landing screen is displayed............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Landing Screen functionality" time="34.746858">
+<system-out><![CDATA[Then I Tap on LATER Button..................................................passed
+Then I Tap on cancel button in Upgrade Firmware.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Settings screen functionality" time="16.223544">
+<system-out><![CDATA[Then I verify hamburger menu in landing screen..............................passed
+Then I Tap on hamburger menu in landing screen..............................passed
+Then I Verify SETTINGS Text displayed in the top of the app.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verify application Logout Functionality" time="7.751314">
+<system-out><![CDATA[Then I verify Log out is displayed..........................................passed
+Then I navigate to update language section in Settings......................passed
+Then I update language to Spanish in settings...............................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Logout in Settings............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Validating application Spanish Language in login page" time="8.460523">
+<system-out><![CDATA[Then I verify Forgot your password Spanish text is displayed in Forgot password Page.passed
+Then I verify Forgot your password content Spanish text is displayed in Forgot password Page.passed
+Then I verify E-mail Spanish label is displayed.............................passed
+Then I Verify Forgot Email Input text field is displayed in Login Page......passed
+Then I Verify Send button is displayed in Forgot password Page..............passed
+And I enter Email in Login Page.............................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Send button in Forgot Password Page...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Empty Email and Enter the password and verify password(Spanish Language)" time="27.492857">
+<system-out><![CDATA[Then I Wait short period for Page to Load...................................passed
+Then I Tap on signup link in login page.....................................passed
+Then I left the Email blank.................................................passed
+Then I enter Password in Signup Page........................................passed
+And I enter confirm password in Signup Page.................................passed
+Then I Tap on term and conditions checkbox..................................passed
+Then I Tap on Signup button.................................................passed
+Then Email field is required Spanish text Error message is displayed........passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Enter the Email and Empty password and verify password(Spanish Language)" time="11.925631">
+<system-out><![CDATA[Then I enter Email in Signup Page...........................................passed
+Then I left the password blank..............................................passed
+And I enter confirm password in Signup Page.................................passed
+Then I Tap on Signup button.................................................passed
+Then The password field is required Spanish text Error message is displayed.passed
+Then Doesn't match Spanish text Error message is displayed..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Enter Valid email valid password and empty verify password(Spanish Language)" time="11.007528">
+<system-out><![CDATA[Then I enter Email in Signup Page...........................................passed
+Then I enter Password in Signup Page........................................passed
+Then I left the Verify password blank.......................................passed
+Then I Tap on Signup button.................................................passed
+Then The verify password field is required Spanish text Error message is displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Enter inValid email, password and valid verify password(Spanish Language)" time="10.600518">
+<system-out><![CDATA[Then I enter Invalid Email in Signup Page...................................passed
+Then I enter Password in Signup Page........................................passed
+And I enter confirm password in Signup Page.................................passed
+Then I Tap on Signup button.................................................passed
+Then The email must be a valid email address Spanish text Error message is displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Enter Valid email, invalid password and valid verify password(Spanish Language)" time="11.042369">
+<system-out><![CDATA[Then I enter Email in Signup Page...........................................passed
+Then I enter invalid Password in Signup Page................................passed
+And I enter confirm password in Signup Page.................................passed
+Then I Tap on Signup button.................................................passed
+Then The password doesn't satisfy the conditions Spanish text Error message is displayed.passed
+Then Doesn't match Spanish text Error message is displayed..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Enter Valid email, password and invalid verify password(Spanish Language)" time="10.749296">
+<system-out><![CDATA[Then I enter Email in Signup Page...........................................passed
+Then I enter Password in Signup Page........................................passed
+And I enter invalid verify password password in Signup Page.................passed
+Then I Tap on Signup button.................................................passed
+Then Doesn't match Spanish text Error message is displayed..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Validating application Spanish Language in Signup Page" time="39.51204">
+<system-out><![CDATA[Then I Wait short period for Page to Load...................................passed
+Then I Tap on signup link in login page.....................................passed
+Then I Verify Email Inputbox is displayed in Signup Page....................passed
+Then I Verify Password Inputbox is displayed in Signup Page.................passed
+Then I Verify Confirm Password Inputbox is displayed in Signup Page.........passed
+Then I Verify Signup button is displayed in Signup Page.....................passed
+And I enter Email in Signup Page............................................passed
+And I enter Password in Signup Page.........................................passed
+And I enter confirm password in Signup Page.................................passed
+Then I Tap on Send button in Signup Page....................................passed
+Then I Tap on login link in signup page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Validating application Spanish Language in login page" time="1.544736">
+<system-out><![CDATA[Then I verify Welcome! Text(Spanish) is displayed in login screen...........passed
+Then I verify Log In Text(Spanish) is displayed in login screen.............passed
+Then I verify E-mail label is displayed in login page.......................passed
+Then I verify Password label is displayed in login page.....................passed
+Then I verify Forgot password? link is displayed in login page..............passed
+Then I verify Don't have an account? text(Spanish) is displayed in login page.passed
+Then I verify Sign Up link is displayed in login page.......................passed
+Then I verify Login CTA is displayed in login page..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Login with blank email and blank password field(Spanish Language)" time="7.873609">
+<system-out><![CDATA[Then I verify black email in email text field...............................passed
+Then I verify black password in password text field.........................passed
+Then I Tap on Login button in Login Page....................................passed
+Then The Email field is required Spanish Error message is displayed in login page.passed
+Then The Password field is required Spanish Error message is displayed in login page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Login with Invalid Email with valid password(Spanish Language)" time="9.113136">
+<system-out><![CDATA[Then I enter Invalid Email in Login Page....................................passed
+Then I enter Valid Password in Login Page...................................passed
+Then I Tap on Login button in Login Page....................................passed
+Then Spanish Error message is displayed.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Login with Valid email and invalid password(Spanish Language)" time="9.174382">
+<system-out><![CDATA[Then I enter Valid Email in Login Page......................................passed
+Then I enter an Invalid Password in Login Page..............................passed
+Then I Tap on Login button in Login Page....................................passed
+Then The password must be at least 5 characters. Spanish Error message is displayed in login page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Login with Valid email and blank password(Spanish Language)" time="10.002185">
+<system-out><![CDATA[Then I enter Valid Email in Login Page......................................passed
+Then I verify black password in password text field.........................passed
+Then I Tap on Login button in Login Page....................................passed
+Then The Password field is required Spanish Error message is displayed in login page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Login with empty email and valid password(Spanish Language)" time="7.180295">
+<system-out><![CDATA[Then I verify black email in email text field...............................passed
+Then I enter Valid Password in Login Page...................................passed
+Then I Tap on Login button in Login Page....................................passed
+Then The Email field is required Spanish Error message is displayed in login page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Login Functionality with invalid credentials(Spanish Language)" time="18.474544">
+<system-out><![CDATA[Then I enter Invalid Email in Login Page....................................passed
+Then I enter an Invalid Password in Login Page..............................passed
+Then I Tap on Login button in Login Page....................................passed
+Then Spanish Error message is displayed.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Login Functionality with valid credentials(Spanish Language)" time="51.427297">
+<system-out><![CDATA[Then I enter Valid Email in Login Page......................................passed
+Then I enter Valid Password in Login Page...................................passed
+Then I Tap on an Login button(Spanish) in Login Page........................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify successfully navigated to On boarding screen..................passed
+Then I entered into On boarding screen......................................passed
+Then I Tap on Yes button....................................................passed
+Then Landing screen is displayed............................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on hamburger menu in landing screen..............................passed
+Then I Wait short period for Page to Load...................................passed
+Then I navigate to update language section in Settings......................passed
+Then I Wait short period for Page to Load...................................passed
+Then I update language to Spanish in settings...............................passed
+Then I Tap on Back Button...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Spanish Language in Landing screen" time="25.622143">
+<failure message="org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'SRI', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, databaseEnabled: false, desired: {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, deviceName: Pixel4, fullReset: true, platformName: android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: LINUX, platformVersion: 10, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: bf2f8953-e162-459d-b184-7a265b60c316&#10;*** Element info: {Using=xpath, value=(//*[@text='Mecánica'])}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)&#13;&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)&#13;&#10;&#9;at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)&#13;&#10;&#9;at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)&#13;&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)&#13;&#10;&#9;at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)&#13;&#10;&#9;at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)&#13;&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)&#13;&#10;&#9;at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)&#13;&#10;&#9;at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:361)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)&#13;&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)&#13;&#10;&#9;at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)&#13;&#10;&#9;at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)&#13;&#10;&#9;at com.dometic.L2.qa.util.Baseclass.asserttextValidation(Baseclass.java:105)&#13;&#10;&#9;at com.dometic.L2.stepdefinition.SpanishLanguage.iVerifyTheMecánicaTextInLandingPage(SpanishLanguage.java:240)&#13;&#10;&#9;at ✽.I verify the Mecánica text in Landing page(src/test/java/com/dometic/L2/features/TC21_LanguageValidationLandingPage(Spanish).feature:17)&#13;&#10;"><![CDATA[Then I verify the Climatización in Landing page.............................passed
+Then I Verify the ¡Temperatura fuera de rango! on climate tile in Landing page.passed
+Then I verify the Alimentación text in Landing page.........................passed
+Then I Verify the Batería de la casa text in Landing page...................passed
+Then I Verify the ¡Cargar batería! text in Landing page.....................passed
+Then I verify the Luz text in Landing page..................................passed
+Then I verify the Actualmente encendido text in Landing page................passed
+Then I Verify the AGS text in Landing page..................................passed
+Then I Verify the Cargador automático text in Landing page..................passed
+Then I verify the ENCENDER text in Landing page.............................passed
+Then I verify the Fusibles text in Landing page.............................passed
+Then I Verify the Todo bien text in Landing page............................passed
+Then I verify the Mecánica text in Landing page.............................failed
+Then I scroll up the screen in Landing page.................................skipped
+Then I verify the Toldo Text in the Landing Page............................skipped
+Then I verify the Depósito text in Landing page.............................skipped
+Then I verify the Fresh Water(Spanish) text in Landing page.................skipped
+Then I verify the Agua negra text in Landing page...........................skipped
+Then I Scroll the screen upto water heater truma............................skipped
+Then I verify the Calentador de agua text in Landing page...................skipped
+Then I verify the Todas text in Landing page................................skipped
+Then I verify the Dispositivos text in Landing page.........................skipped
+Then I verify the Tanques text in Landing page..............................skipped
+Then I scroll down the screen in Landing page...............................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'SRI', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, databaseEnabled: false, desired: {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, deviceName: Pixel4, fullReset: true, platformName: android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: LINUX, platformVersion: 10, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bf2f8953-e162-459d-b184-7a265b60c316
+*** Element info: {Using=xpath, value=(//*[@text='Mecánica'])}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.dometic.L2.qa.util.Baseclass.asserttextValidation(Baseclass.java:105)
+	at com.dometic.L2.stepdefinition.SpanishLanguage.iVerifyTheMecánicaTextInLandingPage(SpanishLanguage.java:240)
+	at ✽.I verify the Mecánica text in Landing page(src/test/java/com/dometic/L2/features/TC21_LanguageValidationLandingPage(Spanish).feature:17)
+]]></failure>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Spanish Language in Climate screen" time="2.733285">
+<system-out><![CDATA[Then I Tap on Climate in Landing screen.....................................passed
+Then I verify the Climate header Spanish text displayed in Climate page.....passed
+Then I Verify inside Spanish text displayed.................................passed
+Then I Verify outside Spanish text displayed................................passed
+Then I verify All Climate Spanish text displayed............................passed
+Then I Verify Climate toggle is displayed in Climate page...................passed
+Then I Tap on Back Button...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Spanish Language in Power screen" time="64.29466">
+<system-out><![CDATA[Then I Tap on the Alimentación in Landing screen............................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Verify the power main screen header Spanish text.....................passed
+Then I Verify the House Battery Text Spanish text...........................passed
+Then I Verify the Inverter Text Spanish text................................passed
+Then I Verify the Operating Mode Text Spanish text..........................passed
+Then I Verify the House Battery Voltage Text Spanish text...................passed
+Then I Verify the Load Wattage Text Spanish text............................passed
+Then I Scroll up the page...................................................passed
+Then I Verify the Chassis Battery Voltage Text Spanish text.................passed
+Then I Verify the Generator Text Spanish text...............................passed
+Then I Verify the Charger Text Spanish text.................................passed
+Then I Verify the AGS Spanish text Text in power main screen................passed
+Then I Verify the Predictive data Spanish text in power main screen.........passed
+Then I Tap on Generator in Power Screen.....................................passed
+Then I Verify control Spanish text in Generator main screen.................passed
+Then I Verify Start button in power main screen.............................passed
+Then I Verify Stop button in power main screen..............................passed
+Then I Verify the  status Spanish text in Generator main screen.............passed
+Then I verify the Run time Spanish text in Generator main screen............passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Charger in Power Screen.......................................passed
+Then I verify the charger state Spanish text in  charger main screen........passed
+Then I verify the AC Input Current Spanish text in charger main screen......passed
+Then I verify the AC Load Current Spanish text in charger main screen.......passed
+Then I verify the charger current Spanish text in charger main screen.......passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on AGS in Power Screen...........................................passed
+Then I verify clear AGS Spanish text in power AGS main screen...............passed
+Then I verify status Spanish text in power AGs main screen..................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Predictive Data in Power Screen...............................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Back Button...................................................passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Spanish text in AGS screen" time="13.888484">
+<system-out><![CDATA[Then I Wait short period for Page to Load...................................passed
+Then I Tap on AGS in Landing Screen.........................................passed
+Then I verify the Cargador automático in the AGS main screen................passed
+Then I verify the Inicio del tiempo de silencio in the AGS main screen......passed
+Then I verify the Fin del tiempo de silencio in the AGS main screen.........passed
+Then I verify the Tensión de inicio in the AGS main screen..................passed
+Then I verify the Tiempo de espera in the AGS main screen...................passed
+Then I verify the Funcionamiento preventivo del generador in the AGS main screen.passed
+Then I verify the Días seleccionados in the AGS main screen.................passed
+Then I verify the Hora de inicio in the AGS main screen.....................passed
+Then I Scroll up the page...................................................passed
+Then I verify the Tiempo de funcionamiento in the AGS main screen...........passed
+Then I verify the Climatización con AGS in the AGS main screen..............passed
+Then I Scroll down the page.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying Inicio del tiempo de silencio main screen Spanish text in AGS screen" time="5.761373">
+<system-out><![CDATA[Then I Tap on Inicio del tiempo de silencio.................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify the Inicio del tiempo de silencio Header text in main screen..passed
+Then I Verify the Apply button in the Inicio del tiempo de silencio main screen.passed
+Then I Tap on Back Button...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying Fin del tiempo de silencio main screen Spanish text in AGS screen" time="7.849237">
+<system-out><![CDATA[Then I Wait short period for Page to Load...................................passed
+Then I Tap on Fin del tiempo de silencio....................................passed
+Then I verify the Fin del tiempo de silencio Header text in main screen.....passed
+Then I Verify the Apply button in the Fin del tiempo de silencio main screen.passed
+Then I Tap on Back Button...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying Tensión de inicio main screen Spanish text in AGS screen" time="7.760391">
+<system-out><![CDATA[Then I Wait short period for Page to Load...................................passed
+Then I Tap on Tensión de inicio.............................................passed
+Then I verify the Tensión de inicio Header text in main screen..............passed
+Then I Verify the Apply button in the Tensión de inicio main screen.........passed
+Then I Tap on Back Button...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying Tiempo de espera main screen Spanish text in AGS screen" time="7.637996">
+<system-out><![CDATA[Then I Wait short period for Page to Load...................................passed
+Then I Tap on Tiempo de espera..............................................passed
+Then I verify the Tiempo de espera Header text in main screen...............passed
+Then I Verify the Apply button in the Tiempo de espera main screen..........passed
+Then I Tap on Back Button...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying Hora de inicio main screen Spanish text in AGS screen" time="7.886566">
+<system-out><![CDATA[Then I Wait short period for Page to Load...................................passed
+Then I Tap on Hora de inicio................................................passed
+Then I verify the Hora de inicio Header text in main screen.................passed
+Then I Verify the Apply button in the Hora de inicio main screen............passed
+Then I Tap on Back Button...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying Tiempo de funcionamiento main screen Spanish text in AGS screen" time="15.35483">
+<system-out><![CDATA[Then I Wait short period for Page to Load...................................passed
+Then I Scroll up the page...................................................passed
+Then I Tap on Tiempo de funcionamiento......................................passed
+Then I verify the Tiempo de funcionamiento Header text in main screen.......passed
+Then I Verify the Apply button in the Tiempo de funcionamiento main screen..passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Back Button...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Fuses screen(Spanish) UI" time="17.386829">
+<system-out><![CDATA[Then I Tap on Fusibles in Landing Screen....................................passed
+Then I verify water pump Spanish text in Fuse...............................passed
+Then I verify Satellite Dish Spanish text in Fuse...........................passed
+Then I verify Accent light Spanish text in Fuse.............................passed
+Then I verify Ceiling Light Spanish text in Fuse............................passed
+Then I verify Bed light Spanish text in Fuse................................passed
+Then I verify washroom light Spanish text in Fuse...........................passed
+Then I Scroll up the page...................................................passed
+Then I verify Galley Spanish text in Fuse...................................passed
+Then I verify Lounge light Spanish text in Fuse.............................passed
+Then I verify Awning Spanish text in Fuse...................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Mechanical screen(Spanish) UI" time="11.283278">
+<failure message="org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'SRI', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, databaseEnabled: false, desired: {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, deviceName: Pixel4, fullReset: true, platformName: android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: LINUX, platformVersion: 10, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: bf2f8953-e162-459d-b184-7a265b60c316&#10;*** Element info: {Using=xpath, value=//*[@text='Mecánica']}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)&#13;&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)&#13;&#10;&#9;at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)&#13;&#10;&#9;at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)&#13;&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)&#13;&#10;&#9;at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)&#13;&#10;&#9;at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)&#13;&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)&#13;&#10;&#9;at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)&#13;&#10;&#9;at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:361)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)&#13;&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)&#13;&#10;&#9;at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)&#13;&#10;&#9;at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)&#13;&#10;&#9;at com.dometic.L2.qa.util.Baseclass.Taponbutton(Baseclass.java:21)&#13;&#10;&#9;at com.dometic.L2.stepdefinition.SpanishLanguage.iTapOnMecánicaInLandingScreen(SpanishLanguage.java:718)&#13;&#10;&#9;at ✽.I Tap on Mecánica in Landing screen(src/test/java/com/dometic/L2/features/TC26_LanguageValidationMechanicalPage(Spanish).feature:5)&#13;&#10;"><![CDATA[Then I Tap on Mecánica in Landing screen....................................failed
+Then I Wait short period for Page to Load...................................skipped
+Then I verify Controller Spanish text in Mechanical screen..................skipped
+Then I verify Open button in Mechanical screen..............................skipped
+And I verify Open button Spanish text in Mechanical screen..................skipped
+Then I verify Close button in Mechanical screen.............................skipped
+And I verify Close button Spanish text in Mechanical screen.................skipped
+Then I Wait short period for Page to Load...................................skipped
+Then I Tap on Back Button...................................................skipped
+Then I Wait short period for Page to Load...................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'SRI', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, databaseEnabled: false, desired: {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, deviceName: Pixel4, fullReset: true, platformName: android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: LINUX, platformVersion: 10, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bf2f8953-e162-459d-b184-7a265b60c316
+*** Element info: {Using=xpath, value=//*[@text='Mecánica']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.dometic.L2.qa.util.Baseclass.Taponbutton(Baseclass.java:21)
+	at com.dometic.L2.stepdefinition.SpanishLanguage.iTapOnMecánicaInLandingScreen(SpanishLanguage.java:718)
+	at ✽.I Tap on Mecánica in Landing screen(src/test/java/com/dometic/L2/features/TC26_LanguageValidationMechanicalPage(Spanish).feature:5)
+]]></failure>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Spanish Language in Tank Fresh Water screen" time="20.445087">
+<system-out><![CDATA[Then I Tap on Depósito Fresh Water in Landing screen........................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify the NIVEL DE AGUA DULCE in the Fresh tank main screen.........passed
+Then I verify the Bomba de agua in the Fresh tank main screen...............passed
+Then I verify the Agua dulce in the Fresh tank main screen..................passed
+Then I verify the Negra in the Fresh tank main screen.......................passed
+Then I verify the Análisis predictivo in the Fresh tank main screen.........passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Spanish Language in Tank Black Water screen" time="16.977684">
+<system-out><![CDATA[Then I Tap on Depósito Agua negra in Landing screen.........................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify the NIVEL DE AGUA NEGRA in the Black tank main screen.........passed
+Then I verify the Bomba de agua in the Black tank main screen...............passed
+Then I verify the Agua dulce in the Black tank main screen..................passed
+Then I verify the Negra in the Black tank main screen.......................passed
+Then I verify the Análisis predictivo in the Black tank main screen.........passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Spanish Language in Water Heater Truma screen" time="30.87176">
+<system-out><![CDATA[Then I Scroll the screen upto water heater truma............................passed
+Then I Tap on Calentador de agua............................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Verify the Modo text in the Water Truma main screen..................passed
+Then I Verify the MODO DE CAMBIO text in the Water Truma main screen........passed
+Then I scroll up the Truma heater carousel..................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify the Aplicar in apply button...................................passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application ViewOption UI functionality" time="7.82322">
+<system-out><![CDATA[Then I Tap on View option button in landing screen..........................passed
+Then I Validate the cancel button...........................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify Ver Opciones spanish text is displayed........................passed
+Then I verify Vista de cuadrícula spanish text is displayed.................passed
+Then I verify Vista de lista spanish text is displayed......................passed
+Then I verify Display spanish text is displayed.............................passed
+Then I verify All Devices spanish text is displayed.........................passed
+Then I verify Connected Devices spanish text is displayed...................passed
+Then I verify Non Connected Devices spanish text is displayed...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application ViewOption(Tile View-All Devices) functionality" time="3.003365">
+<system-out><![CDATA[Then I Tap on Vista de cuadrícula...........................................passed
+Then I Tap on All Devices...................................................passed
+Then I Tap on Cancel Button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application ViewOption(Tile View-Connected Devices) functionality" time="5.187368">
+<system-out><![CDATA[Then I Tap on View option button in landing screen..........................passed
+Then I Tap on Connected Devices.............................................passed
+Then I Tap on Cancel Button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application ViewOption(Tile View-Non Connected Devices) functionality" time="4.731436">
+<system-out><![CDATA[Then I Tap on View option button in landing screen..........................passed
+Then I Tap on Non Connected Devices.........................................passed
+Then I Tap on Cancel Button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application ViewOption(List View-All Devices) functionality" time="5.436663">
+<system-out><![CDATA[Then I Tap on View option button in landing screen..........................passed
+Then I Tap on Vista de lista................................................passed
+Then I Tap on All Devices...................................................passed
+Then I Tap on Cancel Button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application ViewOption(List View-Connected Devices) functionality" time="5.610634">
+<system-out><![CDATA[Then I Tap on View option button in landing screen..........................passed
+Then I Tap on Connected Devices.............................................passed
+Then I Tap on Cancel Button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application ViewOption(List View-Non Connected Devices) functionality" time="4.599941">
+<system-out><![CDATA[Then I Tap on View option button in landing screen..........................passed
+Then I Tap on Non Connected Devices.........................................passed
+Then I Tap on Cancel Button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application ViewOption functionality after Logout" time="19.643894">
+<system-out><![CDATA[Then I Tap on View option button in landing screen..........................passed
+Then I Tap on Vista de cuadrícula...........................................passed
+Then I Tap on Connected Devices.............................................passed
+Then I Tap on Cancel Button.................................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on hamburger menu in landing screen..............................passed
+Then I navigate to update language section in Settings......................passed
+Then I update language to French in settings................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Logout in Settings............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Validating application French Language in login page" time="8.226469">
+<system-out><![CDATA[Then I verify Forgot your password French text is displayed in Forgot password Page.passed
+Then I verify Forgot your password content French text is displayed in Forgot password Page.passed
+Then I verify E-mail French label is displayed..............................passed
+Then I Verify Forgot Email Input text field is displayed in Login Page......passed
+Then I Verify Send button is displayed in Forgot password Page..............passed
+And I enter Email in Login Page.............................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Send button in Forgot Password Page...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Empty Email and Enter the password and verify password(French Language)" time="30.297994">
+<system-out><![CDATA[Then I Wait short period for Page to Load...................................passed
+Then I Tap on signup link in login page.....................................passed
+Then I left the Email blank.................................................passed
+Then I enter Password in Signup Page........................................passed
+And I enter confirm password in Signup Page.................................passed
+Then I Tap on term and conditions checkbox..................................passed
+Then I Tap on Signup button.................................................passed
+Then Email field is required French text Error message is displayed.........passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Enter the Email and Empty password and verify password(French Language)" time="11.708402">
+<system-out><![CDATA[Then I enter Email in Signup Page...........................................passed
+Then I left the password blank..............................................passed
+And I enter confirm password in Signup Page.................................passed
+Then I Tap on Signup button.................................................passed
+Then The password field is required Spanish text Error message is displayed.passed
+Then Doesn't match French text Error message is displayed...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Enter Valid email valid password and empty verify password(French Language)" time="12.184177">
+<system-out><![CDATA[Then I enter Email in Signup Page...........................................passed
+Then I enter Password in Signup Page........................................passed
+Then I left the Verify password blank.......................................passed
+Then I Tap on Signup button.................................................passed
+Then The verify password field is required French text Error message is displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Enter inValid email, password and valid verify password(French Language)" time="11.389137">
+<system-out><![CDATA[Then I enter Invalid Email in Signup Page...................................passed
+Then I enter Password in Signup Page........................................passed
+And I enter confirm password in Signup Page.................................passed
+Then I Tap on Signup button.................................................passed
+Then The email must be a valid email address French text Error message is displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Enter Valid email, invalid password and valid verify password(French Language)" time="11.759625">
+<system-out><![CDATA[Then I enter Email in Signup Page...........................................passed
+Then I enter invalid Password in Signup Page................................passed
+And I enter confirm password in Signup Page.................................passed
+Then I Tap on Signup button.................................................passed
+Then The password doesn't satisfy the conditions French text Error message is displayed.passed
+Then Doesn't match French text Error message is displayed...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Enter Valid email, password and invalid verify password(French Language)" time="11.439026">
+<system-out><![CDATA[Then I enter Email in Signup Page...........................................passed
+Then I enter Password in Signup Page........................................passed
+And I enter invalid verify password password in Signup Page.................passed
+Then I Tap on Signup button.................................................passed
+Then Doesn't match French text Error message is displayed...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Validating application Spanish Language in Signup Page" time="41.89687">
+<system-out><![CDATA[Then I Wait short period for Page to Load...................................passed
+Then I Tap on signup link in login page.....................................passed
+Then I Verify Email Inputbox is displayed in Signup Page....................passed
+Then I Verify Password Inputbox is displayed in Signup Page.................passed
+Then I Verify Confirm Password Inputbox is displayed in Signup Page.........passed
+Then I Verify Signup button is displayed in Signup Page.....................passed
+And I enter Email in Signup Page............................................passed
+And I enter Password in Signup Page.........................................passed
+And I enter confirm password in Signup Page.................................passed
+Then I Tap on Send button in Signup Page....................................passed
+Then I Tap on login link in signup page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Validating application French Language in login page" time="1.603888">
+<system-out><![CDATA[Then I verify Welcome! Text(French) is displayed in login screen............passed
+Then I verify Log In Text(French) is displayed in login screen..............passed
+Then I verify E-mail label is displayed in login page.......................passed
+Then I verify Password label is displayed in login page.....................passed
+Then I verify Forgot password? link(French) is displayed in login page......passed
+Then I verify Don't have an account? text(French) is displayed in login page.passed
+Then I verify Sign Up link(French) is displayed in login page...............passed
+Then I verify Login CTA is displayed in login page..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Login with blank email and blank password field(French Language)" time="7.348704">
+<system-out><![CDATA[Then I verify black email in email text field...............................passed
+Then I verify black password in password text field.........................passed
+Then I Tap on Login button in Login Page....................................passed
+Then The Email field is required French Error message is displayed in login page.passed
+Then The Password field is required French Error message is displayed in login page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Login with Invalid Email with valid password(French Language)" time="10.234445">
+<system-out><![CDATA[Then I enter Invalid Email in Login Page....................................passed
+Then I enter Valid Password in Login Page...................................passed
+Then I Tap on Login button in Login Page....................................passed
+Then French Error message is displayed......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Login with Valid email and invalid password(French Language)" time="9.504664">
+<system-out><![CDATA[Then I enter Valid Email in Login Page......................................passed
+Then I enter an Invalid Password in Login Page..............................passed
+Then I Tap on Login button in Login Page....................................passed
+Then The password must be at least 5 characters. French Error message is displayed in login page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Login with Valid email and blank password(French Language)" time="7.904416">
+<system-out><![CDATA[Then I enter Valid Email in Login Page......................................passed
+Then I verify black password in password text field.........................passed
+Then I Tap on Login button in Login Page....................................passed
+Then The Password field is required French Error message is displayed in login page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Login with empty email and valid password(French Language)" time="6.717346">
+<system-out><![CDATA[Then I verify black email in email text field...............................passed
+Then I enter Valid Password in Login Page...................................passed
+Then I Tap on Login button in Login Page....................................passed
+Then The Email field is required French Error message is displayed in login page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Login Functionality with invalid credentials(French Language)" time="17.586838">
+<system-out><![CDATA[Then I enter Invalid Email in Login Page....................................passed
+Then I enter an Invalid Password in Login Page..............................passed
+Then I Tap on Login button in Login Page....................................passed
+Then French Error message is displayed......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Login Functionality with valid credentials(French Language)" time="58.984547">
+<system-out><![CDATA[Then I enter Valid Email in Login Page......................................passed
+Then I enter Valid Password in Login Page...................................passed
+Then I Tap on an Login button(Spanish) in Login Page........................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify successfully navigated to On boarding screen..................passed
+Then I entered into On boarding screen......................................passed
+Then I Tap on Yes button....................................................passed
+Then Landing screen is displayed............................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on hamburger menu in landing screen..............................passed
+Then I Wait short period for Page to Load...................................passed
+Then I navigate to update language section in Settings......................passed
+Then I Wait short period for Page to Load...................................passed
+Then I update language to French in settings................................passed
+Then I Tap on Back Button...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application French text in Landing screen" time="25.173357">
+<system-out><![CDATA[Then I verify the text Climat in the Landing page...........................passed
+Then I verify the text La température est à l’extérieur de la plage in the Landing page.passed
+Then I verify the text Alimentation in the Landing page.....................passed
+Then I verify the text Batterie de maison in the Landing page...............passed
+Then I verify the text Rechargez la batterie! in the Landing page...........passed
+Then I verify the text Lampe in the Landing page............................passed
+Then I verify the text Présentement ALLUMÉ in the Landing page..............passed
+Then I verify the text AGS in the Landing page..............................passed
+Then I verify the text Chargement automatique in the Landing page...........passed
+Then I verify the text MARCHE in the Landing page...........................passed
+Then I verify the text Fusibles in the Landing page.........................passed
+Then I verify the text Tout est OK in the Landing page......................passed
+Then I Scroll up the page...................................................passed
+Then I verify the text Mécanique in the Landing page........................passed
+Then I verify the text Auvent in the Landing page...........................passed
+Then I verify the text Réservoir in the Landing page........................passed
+Then I verify the text Fresh Water(French) in the Landing page..............passed
+Then I verify the text Eaux noires in the Landing page......................passed
+Then I Scroll the screen upto water heater truma............................passed
+Then I verify the text Chauffe-eau in the Landing page......................passed
+Then I verify the text Truma in the Landing page............................passed
+Then I verify the text Dispositifs in the Landing page......................passed
+Then I verify the text réservoirs in the Landing page.......................passed
+Then I scroll down the screen in Landing page...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application French Language in Climate screen" time="2.59406">
+<system-out><![CDATA[Then I Tap on Climate in Landing screen.....................................passed
+Then I verify the Climate header French text displayed in Climate page......passed
+Then I Verify inside French text displayed..................................passed
+Then I Verify outside French text displayed.................................passed
+Then I verify All Climate French text displayed.............................passed
+Then I Verify Climate toggle is displayed in Climate page...................passed
+Then I Tap on Back Button...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application French Language in Power screen" time="61.912691">
+<system-out><![CDATA[Then I Tap on the Alimentation in Landing screen............................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Verify the power main screen header French text......................passed
+Then I Verify the House Battery French text.................................passed
+Then I Verify the Inverter French text......................................passed
+Then I Verify the Operating Mode French text................................passed
+Then I Verify the House Battery Voltage French text.........................passed
+Then I Verify the Load Wattage French text..................................passed
+Then I Scroll up the page...................................................passed
+Then I Verify the Chassis Battery Voltage French text.......................passed
+Then I Verify the Generator French text.....................................passed
+Then I Verify the Charger French text.......................................passed
+Then I Verify the AGS French Text in power main screen......................passed
+Then I Verify the Predictive data French text in power main screen..........passed
+Then I Tap on Generator in Power Screen.....................................passed
+Then I Verify control French text in Generator main screen..................passed
+Then I Verify Start button in power main screen.............................passed
+Then I Verify Stop button in power main screen..............................passed
+Then I Verify the  status French text in Generator main screen..............passed
+Then I verify the Run time French text in Generator main screen.............passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Charger in Power Screen.......................................passed
+Then I verify the charger state French text in  charger main screen.........passed
+Then I verify the AC Input Current French text in charger main screen.......passed
+Then I verify the AC Load Current French text in charger main screen........passed
+Then I verify the charger current French text in charger main screen........passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on AGS in Power Screen...........................................passed
+Then I verify clear AGS French text in power AGS main screen................passed
+Then I verify status French text in power AGs main screen...................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Predictive Data in Power Screen...............................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Back Button...................................................passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application French text in AGS screen" time="13.834614">
+<system-out><![CDATA[Then I Wait short period for Page to Load...................................passed
+Then I Tap on AGS in Landing Screen.........................................passed
+Then I verify the Chargement automatique in the AGS main screen.............passed
+Then I verify the Début de la période d’inactivité in the AGS main screen...passed
+Then I verify the Fin de la période d’inactivité in the AGS main screen.....passed
+Then I verify the Tension de démarrage in the AGS main screen...............passed
+Then I verify the Temps en dessous de in the AGS main screen................passed
+Then I verify the Générateur d’exercices in the AGS main screen.............passed
+Then I verify the Selected Days in the AGS main screen......................passed
+Then I verify the Heure de début in the AGS main screen.....................passed
+Then I Scroll up the page...................................................passed
+Then I verify the Durée de fonctionnement in the AGS main screen............passed
+Then I verify the Climate AGS in the AGS main screen........................passed
+Then I Scroll down the page.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying Début de la période d’inactivité main screen French text in AGS screen" time="5.352979">
+<system-out><![CDATA[Then I Tap on Début de la période d’inactivité..............................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify the Début de la période d’inactivité Header text in main screen.passed
+Then I Verify the Apply button in the Début de la période d’inactivité main screen.passed
+Then I Tap on Back Button...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying Durée de fonctionnement main screen French text in AGS screen" time="15.219746">
+<system-out><![CDATA[Then I Wait short period for Page to Load...................................passed
+Then I Scroll up the page...................................................passed
+Then I Tap on Durée de fonctionnement.......................................passed
+Then I verify the Durée de fonctionnement Header text in main screen........passed
+Then I Verify the Apply button in the Durée de fonctionnement main screen...passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Back Button...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Fuses screen(French) UI" time="17.006303">
+<system-out><![CDATA[Then I Tap on Fusibles in Landing Screen....................................passed
+Then I verify water pump French text in Fuse................................passed
+Then I verify Satellite Dish French text in Fuse............................passed
+Then I verify Accent light French text in Fuse..............................passed
+Then I verify Ceiling Light French text in Fuse.............................passed
+Then I verify Bed light French text in Fuse.................................passed
+Then I verify washroom light French text in Fuse............................passed
+Then I Scroll up the page...................................................passed
+Then I verify Galley French text in Fuse....................................passed
+Then I verify Lounge light French text in Fuse..............................passed
+Then I verify Awning French text in Fuse....................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application Mechanical screen(French) UI" time="10.121631">
+<failure message="org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'SRI', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, databaseEnabled: false, desired: {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, deviceName: Pixel4, fullReset: true, platformName: android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: LINUX, platformVersion: 10, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: bf2f8953-e162-459d-b184-7a265b60c316&#10;*** Element info: {Using=xpath, value=//*[@text='Mécanique']}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)&#13;&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)&#13;&#10;&#9;at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)&#13;&#10;&#9;at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)&#13;&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)&#13;&#10;&#9;at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)&#13;&#10;&#9;at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)&#13;&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)&#13;&#10;&#9;at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)&#13;&#10;&#9;at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:361)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)&#13;&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)&#13;&#10;&#9;at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)&#13;&#10;&#9;at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)&#13;&#10;&#9;at com.dometic.L2.qa.util.Baseclass.Taponbutton(Baseclass.java:21)&#13;&#10;&#9;at com.dometic.L2.stepdefinition.FrenchLanguage.iTapOnMécaniqueInLandingScreen(FrenchLanguage.java:696)&#13;&#10;&#9;at ✽.I Tap on Mécanique in Landing screen(src/test/java/com/dometic/L2/features/TC39_LanguageValidationMechanicalPage(French).feature:5)&#13;&#10;"><![CDATA[Then I Tap on Mécanique in Landing screen...................................failed
+Then I Wait short period for Page to Load...................................skipped
+Then I verify Controller French text in Mechanical screen...................skipped
+Then I verify Open button in Mechanical screen..............................skipped
+And I verify Open button French text in Mechanical screen...................skipped
+Then I verify Close button in Mechanical screen.............................skipped
+And I verify Close button French text in Mechanical screen..................skipped
+Then I Wait short period for Page to Load...................................skipped
+Then I Tap on Back Button...................................................skipped
+Then I Wait short period for Page to Load...................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'SRI', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, databaseEnabled: false, desired: {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, deviceName: Pixel4, fullReset: true, platformName: android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: LINUX, platformVersion: 10, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bf2f8953-e162-459d-b184-7a265b60c316
+*** Element info: {Using=xpath, value=//*[@text='Mécanique']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.dometic.L2.qa.util.Baseclass.Taponbutton(Baseclass.java:21)
+	at com.dometic.L2.stepdefinition.FrenchLanguage.iTapOnMécaniqueInLandingScreen(FrenchLanguage.java:696)
+	at ✽.I Tap on Mécanique in Landing screen(src/test/java/com/dometic/L2/features/TC39_LanguageValidationMechanicalPage(French).feature:5)
+]]></failure>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application French Language in Tank Fresh Water screen" time="32.071382">
+<system-out><![CDATA[Then I Tap on Réservoir Fresh Water in Landing screen.......................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify the NIVEAU D’EAU POTABLE in the Fresh tank main screen........passed
+Then I verify the Pompe à eau in the Fresh tank main screen.................passed
+Then I verify the Potable in the Fresh tank main screen.....................passed
+Then I verify the Noires in the Fresh tank main screen......................passed
+Then I verify the Analyse prédictive in the Fresh tank main screen..........passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application French Language in Tank Black Water screen" time="16.529204">
+<system-out><![CDATA[Then I Tap on Réservoir in Landing screen...................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify the NIVEAU D’EAU POTABLE in the Black tank main screen........passed
+Then I verify the Pompe à eau in the Black tank main screen.................passed
+Then I verify the Potable in the Black tank main screen.....................passed
+Then I verify the Noires in the Black tank main screen......................passed
+Then I verify the Analyse prédictive in the Black tank main screen..........passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application French Language in Water Heater Truma screen" time="21.454209">
+<system-out><![CDATA[Then I Scroll the screen upto water heater truma............................passed
+Then I Tap on Chauffe-eau...................................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Verify the Mode French text in the Water Truma main screen...........passed
+Then I Verify the CHANGER DE MODE French text in the Water Truma main screen.passed
+Then I scroll up the Truma heater carousel..................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify the Appliquer in apply button.................................passed
+Then I Tap on Back Button...................................................passed
+Then I Wait short period for Page to Load...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application ViewOption UI functionality(French)" time="7.407011">
+<system-out><![CDATA[Then I Tap on View option button in landing screen..........................passed
+Then I Validate the cancel button...........................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify Voir les options French text is displayed.....................passed
+Then I verify Affichage par vignettes French text is displayed..............passed
+Then I verify Affichage par liste French text is displayed..................passed
+Then I verify Display French text is displayed..............................passed
+Then I verify All Devices French text is displayed..........................passed
+Then I verify Connected Devices French text is displayed....................passed
+Then I verify Non Connected Devices French text is displayed................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application ViewOption(Tile View-All Devices) functionality" time="2.986773">
+<system-out><![CDATA[Then I Tap on Affichage par vignettes.......................................passed
+Then I Tap on All Devices...................................................passed
+Then I Tap on Cancel Button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application ViewOption(Tile View-Connected Devices) functionality" time="4.523132">
+<system-out><![CDATA[Then I Tap on View option button in landing screen..........................passed
+Then I Tap on Connected Devices.............................................passed
+Then I Tap on Cancel Button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application ViewOption(Tile View-Non Connected Devices) functionality" time="4.214195">
+<system-out><![CDATA[Then I Tap on View option button in landing screen..........................passed
+Then I Tap on Non Connected Devices.........................................passed
+Then I Tap on Cancel Button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application ViewOption(List View-All Devices) functionality" time="4.601624">
+<system-out><![CDATA[Then I Tap on View option button in landing screen..........................passed
+Then I Tap on Affichage par liste...........................................passed
+Then I Tap on All Devices...................................................passed
+Then I Tap on Cancel Button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application ViewOption(List View-Connected Devices) functionality" time="4.752618">
+<system-out><![CDATA[Then I Tap on View option button in landing screen..........................passed
+Then I Tap on Connected Devices.............................................passed
+Then I Tap on Cancel Button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application ViewOption(List View-Non Connected Devices) functionality" time="4.118999">
+<system-out><![CDATA[Then I Tap on View option button in landing screen..........................passed
+Then I Tap on Non Connected Devices.........................................passed
+Then I Tap on Cancel Button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application ViewOption functionality after Logout" time="15.260729">
+<system-out><![CDATA[Then I Tap on View option button in landing screen..........................passed
+Then I Tap on Affichage par vignettes.......................................passed
+Then I Tap on Connected Devices.............................................passed
+Then I Tap on Cancel Button.................................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on hamburger menu in landing screen..............................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Logout........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

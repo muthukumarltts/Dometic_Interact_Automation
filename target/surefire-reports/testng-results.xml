@@ -1,0 +1,1473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="81" passed="78">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1257161" started-at="2021-04-08T06:24:07Z" finished-at="2021-04-08T06:45:04Z">
+    <groups>
+    </groups>
+    <test name="L2-Test" duration-ms="1257161" started-at="2021-04-08T06:24:07Z" finished-at="2021-04-08T06:45:04Z">
+      <class name="com.dometic.L2.androidrunner.L2_runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="setUpClass" is-config="true" duration-ms="228" started-at="2021-04-08T11:54:07Z" finished-at="2021-04-08T11:54:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="45188" started-at="2021-04-08T11:54:07Z" data-provider="features" finished-at="2021-04-08T11:54:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Launching the application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Login page in Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="11006" started-at="2021-04-08T11:54:53Z" data-provider="features" finished-at="2021-04-08T11:55:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application Splash screen Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Login page in Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="31431" started-at="2021-04-08T11:55:04Z" data-provider="features" finished-at="2021-04-08T11:55:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application Login Functionality with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="16081" started-at="2021-04-08T11:55:35Z" data-provider="features" finished-at="2021-04-08T11:55:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application On boarding screen functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="34752" started-at="2021-04-08T11:55:51Z" data-provider="features" finished-at="2021-04-08T11:56:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application Landing Screen functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="16227" started-at="2021-04-08T11:56:26Z" data-provider="features" finished-at="2021-04-08T11:56:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application Settings screen functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="7756" started-at="2021-04-08T11:56:42Z" data-provider="features" finished-at="2021-04-08T11:56:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify application Logout Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="8467" started-at="2021-04-08T11:56:50Z" data-provider="features" finished-at="2021-04-08T11:56:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating application Spanish Language in login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="27500" started-at="2021-04-08T11:56:58Z" data-provider="features" finished-at="2021-04-08T11:57:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Empty Email and Enter the password and verify password(Spanish Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="11928" started-at="2021-04-08T11:57:26Z" data-provider="features" finished-at="2021-04-08T11:57:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Enter the Email and Empty password and verify password(Spanish Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="11011" started-at="2021-04-08T11:57:38Z" data-provider="features" finished-at="2021-04-08T11:57:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Enter Valid email valid password and empty verify password(Spanish Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="10603" started-at="2021-04-08T11:57:49Z" data-provider="features" finished-at="2021-04-08T11:57:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Enter inValid email, password and valid verify password(Spanish Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="11046" started-at="2021-04-08T11:57:59Z" data-provider="features" finished-at="2021-04-08T11:58:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Enter Valid email, invalid password and valid verify password(Spanish Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="10751" started-at="2021-04-08T11:58:10Z" data-provider="features" finished-at="2021-04-08T11:58:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Enter Valid email, password and invalid verify password(Spanish Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="39518" started-at="2021-04-08T11:58:21Z" data-provider="features" finished-at="2021-04-08T11:59:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating application Spanish Language in Signup Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="1553" started-at="2021-04-08T11:59:01Z" data-provider="features" finished-at="2021-04-08T11:59:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating application Spanish Language in login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="7877" started-at="2021-04-08T11:59:02Z" data-provider="features" finished-at="2021-04-08T11:59:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with blank email and blank password field(Spanish Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="9116" started-at="2021-04-08T11:59:10Z" data-provider="features" finished-at="2021-04-08T11:59:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with Invalid Email with valid password(Spanish Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="9179" started-at="2021-04-08T11:59:19Z" data-provider="features" finished-at="2021-04-08T11:59:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with Valid email and invalid password(Spanish Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="10004" started-at="2021-04-08T11:59:28Z" data-provider="features" finished-at="2021-04-08T11:59:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with Valid email and blank password(Spanish Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="7183" started-at="2021-04-08T11:59:38Z" data-provider="features" finished-at="2021-04-08T11:59:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with empty email and valid password(Spanish Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="18476" started-at="2021-04-08T11:59:46Z" data-provider="features" finished-at="2021-04-08T12:00:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application Login Functionality with invalid credentials(Spanish Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="51432" started-at="2021-04-08T12:00:04Z" data-provider="features" finished-at="2021-04-08T12:00:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application Login Functionality with valid credentials(Spanish Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="25637" started-at="2021-04-08T12:00:56Z" data-provider="features" finished-at="2021-04-08T12:01:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application Spanish Language in Landing screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'SRI', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, databaseEnabled: false, desired: {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, deviceName: Pixel4, fullReset: true, platformName: android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: LINUX, platformVersion: 10, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bf2f8953-e162-459d-b184-7a265b60c316
+*** Element info: {Using=xpath, value=(//*[@text='Mecánica'])}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'SRI', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, databaseEnabled: false, desired: {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, deviceName: Pixel4, fullReset: true, platformName: android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: LINUX, platformVersion: 10, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bf2f8953-e162-459d-b184-7a265b60c316
+*** Element info: {Using=xpath, value=(//*[@text='Mecánica'])}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.dometic.L2.qa.util.Baseclass.asserttextValidation(Baseclass.java:105)
+	at com.dometic.L2.stepdefinition.SpanishLanguage.iVerifyTheMecánicaTextInLandingPage(SpanishLanguage.java:240)
+	at ✽.I verify the Mecánica text in Landing page(src/test/java/com/dometic/L2/features/TC21_LanguageValidationLandingPage(Spanish).feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="2737" started-at="2021-04-08T12:01:24Z" data-provider="features" finished-at="2021-04-08T12:01:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application Spanish Language in Climate screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="64319" started-at="2021-04-08T12:01:27Z" data-provider="features" finished-at="2021-04-08T12:02:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application Spanish Language in Power screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="13892" started-at="2021-04-08T12:02:31Z" data-provider="features" finished-at="2021-04-08T12:02:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application Spanish text in AGS screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="5766" started-at="2021-04-08T12:02:45Z" data-provider="features" finished-at="2021-04-08T12:02:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying Inicio del tiempo de silencio main screen Spanish text in AGS screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="7854" started-at="2021-04-08T12:02:51Z" data-provider="features" finished-at="2021-04-08T12:02:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying Fin del tiempo de silencio main screen Spanish text in AGS screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="7762" started-at="2021-04-08T12:02:59Z" data-provider="features" finished-at="2021-04-08T12:03:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying Tensión de inicio main screen Spanish text in AGS screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="7641" started-at="2021-04-08T12:03:07Z" data-provider="features" finished-at="2021-04-08T12:03:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying Tiempo de espera main screen Spanish text in AGS screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="7892" started-at="2021-04-08T12:03:14Z" data-provider="features" finished-at="2021-04-08T12:03:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying Hora de inicio main screen Spanish text in AGS screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="15358" started-at="2021-04-08T12:03:22Z" data-provider="features" finished-at="2021-04-08T12:03:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying Tiempo de funcionamiento main screen Spanish text in AGS screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="17392" started-at="2021-04-08T12:03:38Z" data-provider="features" finished-at="2021-04-08T12:03:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application Fuses screen(Spanish) UI"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="11287" started-at="2021-04-08T12:03:55Z" data-provider="features" finished-at="2021-04-08T12:04:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application Mechanical screen(Spanish) UI"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'SRI', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, databaseEnabled: false, desired: {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, deviceName: Pixel4, fullReset: true, platformName: android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: LINUX, platformVersion: 10, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bf2f8953-e162-459d-b184-7a265b60c316
+*** Element info: {Using=xpath, value=//*[@text='Mecánica']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'SRI', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, databaseEnabled: false, desired: {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, deviceName: Pixel4, fullReset: true, platformName: android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: LINUX, platformVersion: 10, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bf2f8953-e162-459d-b184-7a265b60c316
+*** Element info: {Using=xpath, value=//*[@text='Mecánica']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.dometic.L2.qa.util.Baseclass.Taponbutton(Baseclass.java:21)
+	at com.dometic.L2.stepdefinition.SpanishLanguage.iTapOnMecánicaInLandingScreen(SpanishLanguage.java:718)
+	at ✽.I Tap on Mecánica in Landing screen(src/test/java/com/dometic/L2/features/TC26_LanguageValidationMechanicalPage(Spanish).feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="20449" started-at="2021-04-08T12:04:08Z" data-provider="features" finished-at="2021-04-08T12:04:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application Spanish Language in Tank Fresh Water screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="16980" started-at="2021-04-08T12:04:29Z" data-provider="features" finished-at="2021-04-08T12:04:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application Spanish Language in Tank Black Water screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="30875" started-at="2021-04-08T12:04:46Z" data-provider="features" finished-at="2021-04-08T12:05:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application Spanish Language in Water Heater Truma screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="7827" started-at="2021-04-08T12:05:17Z" data-provider="features" finished-at="2021-04-08T12:05:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application ViewOption UI functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="3006" started-at="2021-04-08T12:05:25Z" data-provider="features" finished-at="2021-04-08T12:05:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application ViewOption(Tile View-All Devices) functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="5190" started-at="2021-04-08T12:05:28Z" data-provider="features" finished-at="2021-04-08T12:05:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application ViewOption(Tile View-Connected Devices) functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="4733" started-at="2021-04-08T12:05:33Z" data-provider="features" finished-at="2021-04-08T12:05:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application ViewOption(Tile View-Non Connected Devices) functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="5438" started-at="2021-04-08T12:05:37Z" data-provider="features" finished-at="2021-04-08T12:05:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application ViewOption(List View-All Devices) functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="5613" started-at="2021-04-08T12:05:43Z" data-provider="features" finished-at="2021-04-08T12:05:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application ViewOption(List View-Connected Devices) functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="4600" started-at="2021-04-08T12:05:49Z" data-provider="features" finished-at="2021-04-08T12:05:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application ViewOption(List View-Non Connected Devices) functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="19650" started-at="2021-04-08T12:05:53Z" data-provider="features" finished-at="2021-04-08T12:06:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application ViewOption functionality after Logout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="8229" started-at="2021-04-08T12:06:13Z" data-provider="features" finished-at="2021-04-08T12:06:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating application French Language in login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="30299" started-at="2021-04-08T12:06:21Z" data-provider="features" finished-at="2021-04-08T12:06:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Empty Email and Enter the password and verify password(French Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="11711" started-at="2021-04-08T12:06:51Z" data-provider="features" finished-at="2021-04-08T12:07:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Enter the Email and Empty password and verify password(French Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="12186" started-at="2021-04-08T12:07:03Z" data-provider="features" finished-at="2021-04-08T12:07:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Enter Valid email valid password and empty verify password(French Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="11390" started-at="2021-04-08T12:07:15Z" data-provider="features" finished-at="2021-04-08T12:07:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Enter inValid email, password and valid verify password(French Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="11761" started-at="2021-04-08T12:07:27Z" data-provider="features" finished-at="2021-04-08T12:07:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Enter Valid email, invalid password and valid verify password(French Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="11441" started-at="2021-04-08T12:07:38Z" data-provider="features" finished-at="2021-04-08T12:07:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Enter Valid email, password and invalid verify password(French Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="41898" started-at="2021-04-08T12:07:50Z" data-provider="features" finished-at="2021-04-08T12:08:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating application Spanish Language in Signup Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="1607" started-at="2021-04-08T12:08:32Z" data-provider="features" finished-at="2021-04-08T12:08:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating application French Language in login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="7350" started-at="2021-04-08T12:08:33Z" data-provider="features" finished-at="2021-04-08T12:08:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with blank email and blank password field(French Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="10236" started-at="2021-04-08T12:08:41Z" data-provider="features" finished-at="2021-04-08T12:08:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with Invalid Email with valid password(French Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="9506" started-at="2021-04-08T12:08:51Z" data-provider="features" finished-at="2021-04-08T12:09:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with Valid email and invalid password(French Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="7906" started-at="2021-04-08T12:09:00Z" data-provider="features" finished-at="2021-04-08T12:09:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with Valid email and blank password(French Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="6719" started-at="2021-04-08T12:09:08Z" data-provider="features" finished-at="2021-04-08T12:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with empty email and valid password(French Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="17588" started-at="2021-04-08T12:09:15Z" data-provider="features" finished-at="2021-04-08T12:09:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application Login Functionality with invalid credentials(French Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="58986" started-at="2021-04-08T12:09:33Z" data-provider="features" finished-at="2021-04-08T12:10:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application Login Functionality with valid credentials(French Language)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="25184" started-at="2021-04-08T12:10:32Z" data-provider="features" finished-at="2021-04-08T12:10:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application French text in Landing screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="2596" started-at="2021-04-08T12:10:57Z" data-provider="features" finished-at="2021-04-08T12:10:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application French Language in Climate screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="61924" started-at="2021-04-08T12:10:59Z" data-provider="features" finished-at="2021-04-08T12:12:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application French Language in Power screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="13838" started-at="2021-04-08T12:12:01Z" data-provider="features" finished-at="2021-04-08T12:12:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application French text in AGS screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="5356" started-at="2021-04-08T12:12:15Z" data-provider="features" finished-at="2021-04-08T12:12:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying Début de la période d’inactivité main screen French text in AGS screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="15223" started-at="2021-04-08T12:12:20Z" data-provider="features" finished-at="2021-04-08T12:12:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying Durée de fonctionnement main screen French text in AGS screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="17011" started-at="2021-04-08T12:12:36Z" data-provider="features" finished-at="2021-04-08T12:12:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application Fuses screen(French) UI"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="10124" started-at="2021-04-08T12:12:53Z" data-provider="features" finished-at="2021-04-08T12:13:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application Mechanical screen(French) UI"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'SRI', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, databaseEnabled: false, desired: {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, deviceName: Pixel4, fullReset: true, platformName: android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: LINUX, platformVersion: 10, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bf2f8953-e162-459d-b184-7a265b60c316
+*** Element info: {Using=xpath, value=//*[@text='Mécanique']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'SRI', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, databaseEnabled: false, desired: {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, deviceName: Pixel4, fullReset: true, platformName: android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: LINUX, platformVersion: 10, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bf2f8953-e162-459d-b184-7a265b60c316
+*** Element info: {Using=xpath, value=//*[@text='Mécanique']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.dometic.L2.qa.util.Baseclass.Taponbutton(Baseclass.java:21)
+	at com.dometic.L2.stepdefinition.FrenchLanguage.iTapOnMécaniqueInLandingScreen(FrenchLanguage.java:696)
+	at ✽.I Tap on Mécanique in Landing screen(src/test/java/com/dometic/L2/features/TC39_LanguageValidationMechanicalPage(French).feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="32073" started-at="2021-04-08T12:13:05Z" data-provider="features" finished-at="2021-04-08T12:13:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application French Language in Tank Fresh Water screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="16531" started-at="2021-04-08T12:13:37Z" data-provider="features" finished-at="2021-04-08T12:13:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application French Language in Tank Black Water screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="21457" started-at="2021-04-08T12:13:53Z" data-provider="features" finished-at="2021-04-08T12:14:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application French Language in Water Heater Truma screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="7412" started-at="2021-04-08T12:14:15Z" data-provider="features" finished-at="2021-04-08T12:14:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application ViewOption UI functionality(French)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="2988" started-at="2021-04-08T12:14:22Z" data-provider="features" finished-at="2021-04-08T12:14:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application ViewOption(Tile View-All Devices) functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="4525" started-at="2021-04-08T12:14:25Z" data-provider="features" finished-at="2021-04-08T12:14:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application ViewOption(Tile View-Connected Devices) functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="4215" started-at="2021-04-08T12:14:30Z" data-provider="features" finished-at="2021-04-08T12:14:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application ViewOption(Tile View-Non Connected Devices) functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="4603" started-at="2021-04-08T12:14:34Z" data-provider="features" finished-at="2021-04-08T12:14:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application ViewOption(List View-All Devices) functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="4754" started-at="2021-04-08T12:14:39Z" data-provider="features" finished-at="2021-04-08T12:14:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application ViewOption(List View-Connected Devices) functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="4120" started-at="2021-04-08T12:14:43Z" data-provider="features" finished-at="2021-04-08T12:14:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application ViewOption(List View-Non Connected Devices) functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="feature" duration-ms="15263" started-at="2021-04-08T12:14:47Z" data-provider="features" finished-at="2021-04-08T12:15:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying application ViewOption functionality after Logout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing an Dometic LMC application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.dometic.L2.androidrunner.L2_runner@57fffcd7]" name="tearDownClass" is-config="true" duration-ms="1201" started-at="2021-04-08T12:15:03Z" finished-at="2021-04-08T12:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.dometic.L2.androidrunner.L2_runner -->
+    </test> <!-- L2-Test -->
+  </suite> <!-- Suite -->
+</testng-results>

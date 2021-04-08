@@ -1,0 +1,705 @@
+<html>
+<head>
+<title>TestNG:  L2-Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>L2-Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>78/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 08 11:54:07 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>1257 seconds (1257161 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application Spanish Language in Landing screen", "Testing an Dometic LMC application"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;SRI&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, databaseEnabled: false, desired: {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, deviceName: Pixel4, fullReset: true, platformName: android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: LINUX, platformVersion: 10, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bf2f8953-e162-459d-b184-7a265b60c316
+*** Element info: {Using=xpath, value=(//*[@text=&apos;Mecánica&apos;])}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.dometic.L2.qa.util.Baseclass.asserttextValidation(Baseclass.java:105)
+	at com.dometic.L2.stepdefinition.SpanishLanguage.iVerifyTheMecánicaTextInLandingPage(SpanishLanguage.java:240)
+	at ?.I verify the Mecánica text in Landing page(src/test/java/com/dometic/L2/features/TC21_LanguageValidationLandingPage(Spanish).feature:17)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace65047820", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace65047820'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;SRI&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, databaseEnabled: false, desired: {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, deviceName: Pixel4, fullReset: true, platformName: android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: LINUX, platformVersion: 10, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bf2f8953-e162-459d-b184-7a265b60c316
+*** Element info: {Using=xpath, value=(//*[@text=&apos;Mecánica&apos;])}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.dometic.L2.qa.util.Baseclass.asserttextValidation(Baseclass.java:105)
+	at com.dometic.L2.stepdefinition.SpanishLanguage.iVerifyTheMecánicaTextInLandingPage(SpanishLanguage.java:240)
+	at ?.I verify the Mecánica text in Landing page(src/test/java/com/dometic/L2/features/TC21_LanguageValidationLandingPage(Spanish).feature:17)
+</pre></div></td>
+<td>25</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application Mechanical screen(Spanish) UI", "Testing an Dometic LMC application"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;SRI&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, databaseEnabled: false, desired: {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, deviceName: Pixel4, fullReset: true, platformName: android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: LINUX, platformVersion: 10, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bf2f8953-e162-459d-b184-7a265b60c316
+*** Element info: {Using=xpath, value=//*[@text=&apos;Mecánica&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.dometic.L2.qa.util.Baseclass.Taponbutton(Baseclass.java:21)
+	at com.dometic.L2.stepdefinition.SpanishLanguage.iTapOnMecánicaInLandingScreen(SpanishLanguage.java:718)
+	at ?.I Tap on Mecánica in Landing screen(src/test/java/com/dometic/L2/features/TC26_LanguageValidationMechanicalPage(Spanish).feature:5)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1850701826", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1850701826'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;SRI&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, databaseEnabled: false, desired: {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, deviceName: Pixel4, fullReset: true, platformName: android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: LINUX, platformVersion: 10, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bf2f8953-e162-459d-b184-7a265b60c316
+*** Element info: {Using=xpath, value=//*[@text=&apos;Mecánica&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.dometic.L2.qa.util.Baseclass.Taponbutton(Baseclass.java:21)
+	at com.dometic.L2.stepdefinition.SpanishLanguage.iTapOnMecánicaInLandingScreen(SpanishLanguage.java:718)
+	at ?.I Tap on Mecánica in Landing screen(src/test/java/com/dometic/L2/features/TC26_LanguageValidationMechanicalPage(Spanish).feature:5)
+</pre></div></td>
+<td>11</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application Mechanical screen(French) UI", "Testing an Dometic LMC application"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;SRI&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, databaseEnabled: false, desired: {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, deviceName: Pixel4, fullReset: true, platformName: android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: LINUX, platformVersion: 10, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bf2f8953-e162-459d-b184-7a265b60c316
+*** Element info: {Using=xpath, value=//*[@text=&apos;Mécanique&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.dometic.L2.qa.util.Baseclass.Taponbutton(Baseclass.java:21)
+	at com.dometic.L2.stepdefinition.FrenchLanguage.iTapOnMécaniqueInLandingScreen(FrenchLanguage.java:696)
+	at ?.I Tap on Mécanique in Landing screen(src/test/java/com/dometic/L2/features/TC39_LanguageValidationMechanicalPage(French).feature:5)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace189671876", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace189671876'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;SRI&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, databaseEnabled: false, desired: {app: C:\Users\Srinidi.S.S\Deskto..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, deviceName: Pixel4, fullReset: true, platformName: android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: LINUX, platformVersion: 10, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bf2f8953-e162-459d-b184-7a265b60c316
+*** Element info: {Using=xpath, value=//*[@text=&apos;Mécanique&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.dometic.L2.qa.util.Baseclass.Taponbutton(Baseclass.java:21)
+	at com.dometic.L2.stepdefinition.FrenchLanguage.iTapOnMécaniqueInLandingScreen(FrenchLanguage.java:696)
+	at ?.I Tap on Mécanique in Landing screen(src/test/java/com/dometic/L2/features/TC39_LanguageValidationMechanicalPage(French).feature:5)
+</pre></div></td>
+<td>10</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Launching the application", "Testing Login page in Dometic LMC application"</td>
+<td></td>
+<td>45</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application Splash screen Functionality", "Testing Login page in Dometic LMC application"</td>
+<td></td>
+<td>11</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application Login Functionality with valid credentials", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>31</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application On boarding screen functionality", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>16</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application Landing Screen functionality", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>34</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application Settings screen functionality", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>16</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verify application Logout Functionality", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>7</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Validating application Spanish Language in login page", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>8</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Empty Email and Enter the password and verify password(Spanish Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>27</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Enter the Email and Empty password and verify password(Spanish Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>11</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Enter Valid email valid password and empty verify password(Spanish Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>11</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Enter inValid email, password and valid verify password(Spanish Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>10</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Enter Valid email, invalid password and valid verify password(Spanish Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>11</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Enter Valid email, password and invalid verify password(Spanish Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>10</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Validating application Spanish Language in Signup Page", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>39</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Validating application Spanish Language in login page", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>1</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Login with blank email and blank password field(Spanish Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>7</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Login with Invalid Email with valid password(Spanish Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>9</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Login with Valid email and invalid password(Spanish Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>9</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Login with Valid email and blank password(Spanish Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>10</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Login with empty email and valid password(Spanish Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>7</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application Login Functionality with invalid credentials(Spanish Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>18</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application Login Functionality with valid credentials(Spanish Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>51</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application Spanish Language in Climate screen", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>2</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application Spanish Language in Power screen", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>64</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application Spanish text in AGS screen", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>13</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying Inicio del tiempo de silencio main screen Spanish text in AGS screen", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>5</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying Fin del tiempo de silencio main screen Spanish text in AGS screen", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>7</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying Tensión de inicio main screen Spanish text in AGS screen", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>7</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying Tiempo de espera main screen Spanish text in AGS screen", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>7</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying Hora de inicio main screen Spanish text in AGS screen", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>7</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying Tiempo de funcionamiento main screen Spanish text in AGS screen", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>15</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application Fuses screen(Spanish) UI", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>17</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application Spanish Language in Tank Fresh Water screen", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>20</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application Spanish Language in Tank Black Water screen", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>16</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application Spanish Language in Water Heater Truma screen", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>30</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application ViewOption UI functionality", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>7</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application ViewOption(Tile View-All Devices) functionality", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>3</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application ViewOption(Tile View-Connected Devices) functionality", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>5</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application ViewOption(Tile View-Non Connected Devices) functionality", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>4</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application ViewOption(List View-All Devices) functionality", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>5</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application ViewOption(List View-Connected Devices) functionality", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>5</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application ViewOption(List View-Non Connected Devices) functionality", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>4</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application ViewOption functionality after Logout", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>19</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Validating application French Language in login page", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>8</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Empty Email and Enter the password and verify password(French Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>30</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Enter the Email and Empty password and verify password(French Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>11</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Enter Valid email valid password and empty verify password(French Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>12</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Enter inValid email, password and valid verify password(French Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>11</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Enter Valid email, invalid password and valid verify password(French Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>11</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Enter Valid email, password and invalid verify password(French Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>11</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Validating application Spanish Language in Signup Page", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>41</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Validating application French Language in login page", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>1</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Login with blank email and blank password field(French Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>7</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Login with Invalid Email with valid password(French Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>10</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Login with Valid email and invalid password(French Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>9</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Login with Valid email and blank password(French Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>7</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Login with empty email and valid password(French Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>6</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application Login Functionality with invalid credentials(French Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>17</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application Login Functionality with valid credentials(French Language)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>58</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application French text in Landing screen", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>25</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application French Language in Climate screen", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>2</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application French Language in Power screen", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>61</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application French text in AGS screen", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>13</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying Début de la période d’inactivité main screen French text in AGS screen", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>5</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying Durée de fonctionnement main screen French text in AGS screen", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>15</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application Fuses screen(French) UI", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>17</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application French Language in Tank Fresh Water screen", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>32</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application French Language in Tank Black Water screen", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>16</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application French Language in Water Heater Truma screen", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>21</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application ViewOption UI functionality(French)", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>7</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application ViewOption(Tile View-All Devices) functionality", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>2</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application ViewOption(Tile View-Connected Devices) functionality", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>4</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application ViewOption(Tile View-Non Connected Devices) functionality", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>4</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application ViewOption(List View-All Devices) functionality", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>4</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application ViewOption(List View-Connected Devices) functionality", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>4</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application ViewOption(List View-Non Connected Devices) functionality", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>4</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+<tr>
+<td title='com.dometic.L2.androidrunner.L2_runner.feature()'><b>feature</b><br>Test class: com.dometic.L2.androidrunner.L2_runner<br>Parameters: "Verifying application ViewOption functionality after Logout", "Testing an Dometic LMC application"</td>
+<td></td>
+<td>15</td>
+<td>com.dometic.L2.androidrunner.L2_runner@57fffcd7</td></tr>
+</table><p>
+</body>
+</html>

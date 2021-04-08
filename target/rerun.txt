@@ -1,0 +1,3 @@
+src/test/java/com/dometic/L2/features/TC21_LanguageValidationLandingPage(Spanish).feature:4
+src/test/java/com/dometic/L2/features/TC39_LanguageValidationMechanicalPage(French).feature:4
+src/test/java/com/dometic/L2/features/TC26_LanguageValidationMechanicalPage(Spanish).feature:4

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <test name="L2-Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.dometic.L2.androidrunner.L2_runner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="23 34 69"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.dometic.L2.androidrunner.L2_runner -->
+    </classes>
+  </test> <!-- L2-Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
