@@ -1,6 +1,6 @@
 Feature: Testing an Dometic LMC application
 
-  @First @sanity
+  @First1 @sanity1
   Scenario: Verifying application Fuses screen(French) UI
     Then I Tap on Fusibles in Landing Screen
     Then I verify water pump French text in Fuse
