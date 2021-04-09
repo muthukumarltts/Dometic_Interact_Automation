@@ -1,6 +1,6 @@
 Feature: Testing an Dometic LMC application
 
-  @First @sanity
+  @First1 @sanity1
   Scenario: Empty Email and Enter the password and verify password(French Language)
 #    Then I Tap on Back Button
     Then I Wait short period for Page to Load
@@ -12,7 +12,7 @@ Feature: Testing an Dometic LMC application
     Then I Tap on Signup button
     Then Email field is required French text Error message is displayed
 
-  @sanity
+  @sanity1
   Scenario: Enter the Email and Empty password and verify password(French Language)
     Then I enter Email in Signup Page
     Then I left the password blank
@@ -21,7 +21,7 @@ Feature: Testing an Dometic LMC application
     Then The password field is required Spanish text Error message is displayed
     Then Doesn't match French text Error message is displayed
 
-  @sanity
+  @sanity1
   Scenario: Enter Valid email valid password and empty verify password(French Language)
     Then I enter Email in Signup Page
     Then I enter Password in Signup Page
@@ -29,7 +29,7 @@ Feature: Testing an Dometic LMC application
     Then I Tap on Signup button
     Then The verify password field is required French text Error message is displayed
 
-  @sanity
+  @sanity1
   Scenario: Enter inValid email, password and valid verify password(French Language)
     Then I enter Invalid Email in Signup Page
     Then I enter Password in Signup Page
@@ -37,7 +37,7 @@ Feature: Testing an Dometic LMC application
     Then I Tap on Signup button
     Then The email must be a valid email address French text Error message is displayed
 
-  @sanity
+  @sanity1
   Scenario: Enter Valid email, invalid password and valid verify password(French Language)
     Then I enter Email in Signup Page
     Then I enter invalid Password in Signup Page
@@ -46,7 +46,7 @@ Feature: Testing an Dometic LMC application
     Then The password doesn't satisfy the conditions French text Error message is displayed
     Then Doesn't match French text Error message is displayed
 
-  @sanity
+  @sanity1
   Scenario: Enter Valid email, password and invalid verify password(French Language)
     Then I enter Email in Signup Page
     Then I enter Password in Signup Page
@@ -54,7 +54,7 @@ Feature: Testing an Dometic LMC application
     Then I Tap on Signup button
     Then Doesn't match French text Error message is displayed
 
-  @sanity
+  @sanity1
   Scenario: Validating application Spanish Language in Signup Page
     Then I Wait short period for Page to Load
     Then I Tap on signup link in login page
