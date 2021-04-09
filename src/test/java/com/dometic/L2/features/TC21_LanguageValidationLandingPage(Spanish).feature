@@ -1,6 +1,6 @@
 Feature: Testing an Dometic LMC application
 
-  @First @sanity
+  @First1 @sanity1
   Scenario: Verifying application Spanish Language in Landing screen
     Then I verify the Climatización in Landing page
     Then I Verify the ¡Temperatura fuera de rango! on climate tile in Landing page
