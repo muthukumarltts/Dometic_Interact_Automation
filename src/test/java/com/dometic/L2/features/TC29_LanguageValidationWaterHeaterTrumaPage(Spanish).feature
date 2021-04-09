@@ -1,6 +1,6 @@
 Feature: Testing an Dometic LMC application
 
-  @First @sanity
+  @First1 @sanity1
   Scenario: Verifying application Spanish Language in Water Heater Truma screen
     Then I Scroll the screen upto water heater truma
     Then I Tap on Calentador de agua
