@@ -1,6 +1,6 @@
 Feature: Testing an Dometic LMC application
 
-  @First @sanity
+  @First1 @sanity1
   Scenario: Verifying application ViewOption UI functionality(French)
     Then I Tap on View option button in landing screen
     Then I Validate the cancel button
@@ -13,44 +13,44 @@ Feature: Testing an Dometic LMC application
     Then I verify Connected Devices French text is displayed
     Then I verify Non Connected Devices French text is displayed
 
-  @sanity
+  @sanity1
   Scenario: Verifying application ViewOption(Tile View-All Devices) functionality
     Then I Tap on Affichage par vignettes
     Then I Tap on All Devices
     Then I Tap on Cancel Button
 
-  @sanity
+  @sanity1
   Scenario: Verifying application ViewOption(Tile View-Connected Devices) functionality
     Then I Tap on View option button in landing screen
     Then I Tap on Connected Devices
     Then I Tap on Cancel Button
 
-  @sanity
+  @sanity1
   Scenario: Verifying application ViewOption(Tile View-Non Connected Devices) functionality
     Then I Tap on View option button in landing screen
     Then I Tap on Non Connected Devices
     Then I Tap on Cancel Button
 
-  @sanity
+  @sanity1
   Scenario: Verifying application ViewOption(List View-All Devices) functionality
     Then I Tap on View option button in landing screen
     Then I Tap on Affichage par liste
     Then I Tap on All Devices
     Then I Tap on Cancel Button
 
-  @sanity
+  @sanity1
   Scenario: Verifying application ViewOption(List View-Connected Devices) functionality
     Then I Tap on View option button in landing screen
     Then I Tap on Connected Devices
     Then I Tap on Cancel Button
 
-  @sanity
+  @sanity1
   Scenario: Verifying application ViewOption(List View-Non Connected Devices) functionality
     Then I Tap on View option button in landing screen
     Then I Tap on Non Connected Devices
     Then I Tap on Cancel Button
 
-  @sanity
+  @sanity1
   Scenario: Verifying application ViewOption functionality after Logout
     Then I Tap on View option button in landing screen
     Then I Tap on Affichage par vignettes
