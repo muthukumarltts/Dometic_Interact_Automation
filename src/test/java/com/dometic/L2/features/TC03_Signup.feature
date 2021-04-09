@@ -1,6 +1,6 @@
 Feature: Testing Signup page in Dometic LMC application
 
-  @First @sanity
+  @First1 @sanity1
   Scenario: Empty Email and Enter the password and verify password
     Then I Tap on Allow button in Permission popup in Login Page
     Then I Wait short period for Page to Load
