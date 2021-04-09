@@ -1,6 +1,6 @@
 Feature: Testing an Dometic LMC application
 
-  @First @sanity
+  @First1 @sanity1
   Scenario: Verifying application French text in AGS screen
     Then I Wait short period for Page to Load
     Then I Tap on AGS in Landing Screen
@@ -17,7 +17,7 @@ Feature: Testing an Dometic LMC application
     Then I verify the Climate AGS in the AGS main screen
     Then I Scroll down the page
 
-  @sanity
+  @sanity1
   Scenario: Verifying Début de la période d’inactivité main screen French text in AGS screen
     Then I Tap on Début de la période d’inactivité
     Then I Wait short period for Page to Load
@@ -57,7 +57,7 @@ Feature: Testing an Dometic LMC application
     Then I Verify the Apply button in the Heure de début main screen
     Then I Tap on Back Button
 
-  @sanity
+  @sanity1
   Scenario: Verifying Durée de fonctionnement main screen French text in AGS screen
     Then I Wait short period for Page to Load
     Then I Scroll up the page
