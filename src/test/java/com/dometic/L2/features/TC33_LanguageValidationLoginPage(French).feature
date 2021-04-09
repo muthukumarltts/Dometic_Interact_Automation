@@ -1,6 +1,6 @@
 Feature: Testing an Dometic LMC application
 
-  @First @sanity
+  @First1 @sanity1
   Scenario: Validating application French Language in login page
     Then I verify Welcome! Text(French) is displayed in login screen
     Then I verify Log In Text(French) is displayed in login screen
@@ -11,7 +11,7 @@ Feature: Testing an Dometic LMC application
     Then I verify Sign Up link(French) is displayed in login page
     Then I verify Login CTA is displayed in login page
 
-  @sanity
+  @sanity1
   Scenario: Login with blank email and blank password field(French Language)
     Then I verify black email in email text field
     Then I verify black password in password text field
@@ -19,42 +19,42 @@ Feature: Testing an Dometic LMC application
     Then The Email field is required French Error message is displayed in login page
     Then The Password field is required French Error message is displayed in login page
 
-  @sanity
+  @sanity1
   Scenario: Login with Invalid Email with valid password(French Language)
     Then I enter Invalid Email in Login Page
     Then I enter Valid Password in Login Page
     Then I Tap on Login button in Login Page
     Then French Error message is displayed
 
-  @sanity
+  @sanity1
   Scenario: Login with Valid email and invalid password(French Language)
     Then I enter Valid Email in Login Page
     Then I enter an Invalid Password in Login Page
     Then I Tap on Login button in Login Page
     Then The password must be at least 5 characters. French Error message is displayed in login page
 
-  @sanity
+  @sanity1
   Scenario: Login with Valid email and blank password(French Language)
     Then I enter Valid Email in Login Page
     Then I verify black password in password text field
     Then I Tap on Login button in Login Page
     Then The Password field is required French Error message is displayed in login page
 
-  @sanity
+  @sanity1
   Scenario: Login with empty email and valid password(French Language)
     Then I verify black email in email text field
     Then I enter Valid Password in Login Page
     Then I Tap on Login button in Login Page
     Then The Email field is required French Error message is displayed in login page
 
-  @sanity
+  @sanity1
   Scenario:  Verifying application Login Functionality with invalid credentials(French Language)
     Then I enter Invalid Email in Login Page
     Then I enter an Invalid Password in Login Page
     Then I Tap on Login button in Login Page
     Then French Error message is displayed
 
-  @sanity
+  @sanity1
   Scenario: Verifying application Login Functionality with valid credentials(French Language)
     Then I enter Valid Email in Login Page
     Then I enter Valid Password in Login Page
