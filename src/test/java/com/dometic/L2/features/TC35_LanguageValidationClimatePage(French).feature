@@ -1,6 +1,6 @@
 Feature: Testing an Dometic LMC application
 
-  @First @sanity
+  @First1 @sanity1
   Scenario: Verifying application French Language in Climate screen
     Then I Tap on Climate in Landing screen
     Then I verify the Climate header French text displayed in Climate page
