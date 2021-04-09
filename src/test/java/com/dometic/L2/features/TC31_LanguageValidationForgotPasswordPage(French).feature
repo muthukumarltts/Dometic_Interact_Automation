@@ -1,6 +1,6 @@
 Feature: Testing an Dometic LMC application
 
-  @First @sanity
+  @First1 @sanity1
   Scenario: Validating application French Language in login page
     Then I verify Forgot your password French text is displayed in Forgot password Page
     Then I verify Forgot your password content French text is displayed in Forgot password Page
