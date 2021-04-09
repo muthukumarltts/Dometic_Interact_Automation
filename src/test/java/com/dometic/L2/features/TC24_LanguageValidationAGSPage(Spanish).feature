@@ -1,6 +1,6 @@
 Feature: Testing an Dometic LMC application
 
-  @First @sanity
+  @First1 @sanity1
   Scenario: Verifying application Spanish text in AGS screen
     Then I Wait short period for Page to Load
     Then I Tap on AGS in Landing Screen
@@ -17,7 +17,7 @@ Feature: Testing an Dometic LMC application
     Then I verify the Climatización con AGS in the AGS main screen
     Then I Scroll down the page
 
-  @sanity
+  @sanity1
   Scenario: Verifying Inicio del tiempo de silencio main screen Spanish text in AGS screen
     Then I Tap on Inicio del tiempo de silencio
     Then I Wait short period for Page to Load
@@ -25,7 +25,7 @@ Feature: Testing an Dometic LMC application
     Then I Verify the Apply button in the Inicio del tiempo de silencio main screen
     Then I Tap on Back Button
 
-  @sanity
+  @sanity1
   Scenario: Verifying Fin del tiempo de silencio main screen Spanish text in AGS screen
     Then I Wait short period for Page to Load
     Then I Tap on Fin del tiempo de silencio
@@ -33,7 +33,7 @@ Feature: Testing an Dometic LMC application
     Then I Verify the Apply button in the Fin del tiempo de silencio main screen
     Then I Tap on Back Button
 
-  @sanity
+  @sanity1
   Scenario: Verifying Tensión de inicio main screen Spanish text in AGS screen
     Then I Wait short period for Page to Load
     Then I Tap on Tensión de inicio
@@ -41,7 +41,7 @@ Feature: Testing an Dometic LMC application
     Then I Verify the Apply button in the Tensión de inicio main screen
     Then I Tap on Back Button
 
-  @sanity
+  @sanity1
   Scenario: Verifying Tiempo de espera main screen Spanish text in AGS screen
     Then I Wait short period for Page to Load
     Then I Tap on Tiempo de espera
@@ -49,7 +49,7 @@ Feature: Testing an Dometic LMC application
     Then I Verify the Apply button in the Tiempo de espera main screen
     Then I Tap on Back Button
 
-  @sanity
+  @sanity1
   Scenario: Verifying Hora de inicio main screen Spanish text in AGS screen
     Then I Wait short period for Page to Load
     Then I Tap on Hora de inicio
@@ -57,7 +57,7 @@ Feature: Testing an Dometic LMC application
     Then I Verify the Apply button in the Hora de inicio main screen
     Then I Tap on Back Button
 
-  @sanity
+  @sanity1
   Scenario: Verifying Tiempo de funcionamiento main screen Spanish text in AGS screen
     Then I Wait short period for Page to Load
     Then I Scroll up the page
