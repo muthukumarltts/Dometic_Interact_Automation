@@ -1,6 +1,6 @@
 Feature: Testing an Dometic LMC application
 
-  @First @sanity
+  @First1 @sanity1
   Scenario: Verifying application French Language in Tank Black Water screen
     Then I Tap on Réservoir in Landing screen
     Then I Wait short period for Page to Load
