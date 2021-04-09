@@ -1,6 +1,6 @@
 Feature: Testing Forgot Password page in Dometic LMC application
 
-  @First1 @sanity1
+  @First @sanity
   Scenario: Verifying application Forgot Password Functionality
     Then I verify Forgot your password text is displayedd in Forgot password Page
     Then I verify Forgot your password content text is displayed in Forgot password Page
