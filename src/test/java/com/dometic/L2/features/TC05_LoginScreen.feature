@@ -1,6 +1,6 @@
 Feature: Testing an Dometic LMC application
 
-  @First1 @sanity1
+  @First @sanity
   Scenario:  Verifying application Login Page UI
     Then I verify Welcome! Text is displayed in login screen
     Then I verify Log In Text is displayed in login screen
