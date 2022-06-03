@@ -66,6 +66,3 @@ Feature: Testing Signup page in Dometic LMC application
     Then I Tap on Send button in Signup Page
     Then I Tap on login link in signup page
 
-  @sanity
-  Scenario: Verifying clone test
-
